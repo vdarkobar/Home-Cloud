@@ -7,6 +7,7 @@
 </p>    
   
 <p align="center">
+  <a href="https://nginxproxymanager.com/">Nginx Proxy Manager</a> |
   <a href="https://github.com/vdarkobar/Authelia">Authelia</a> |
   <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
