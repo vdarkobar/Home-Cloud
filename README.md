@@ -20,3 +20,26 @@ with added security of not needing to open *Ports* in your *Firewall*, also fixi
   
 ---  
     
+Login to <a href="https://dash.cloudflare.com/">CloudFlare</a>, add a website with the following settings:
+
+#### Site settings:  
+
+<pre>
+SSL/TLS Mode - Full (strict)  
+
+Edge Certificates:  
+  Always Use HTTPS: ON  
+  HTTP Strict Transport Security (HSTS): Enable (Be Cautious)  
+  Minimum TLS Version: 1.2  
+  Opportunistic Encryption: ON  
+  TLS 1.3: ON  
+  Automatic HTTPS Rewrites: ON  
+  Certificate Transparency Monitoring: ON   
+  
+Firewall Settings:  
+  Security Level: High  
+  Bot Fight Mode: ON  
+  Challenge Passage: 30 Minutes  
+  Browser Integrity Check: ON  
+</pre>
+
