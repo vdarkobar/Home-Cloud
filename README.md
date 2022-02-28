@@ -15,7 +15,7 @@
   <br><br>
 </p>  
   
-with added security of not having need to open *Ports* in your *Firewall*, also fixing *double NAT* situations.
+with added security of not needing to open *Ports* in your *Firewall*, also fixing *Double NAT* situations.
   
 ---  
     
