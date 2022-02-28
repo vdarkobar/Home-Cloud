@@ -10,8 +10,7 @@ Time Zone nad NPM Port Number.
   
 ### *Run this command*:
 ```
-RED='\033[0;31m'; echo -ne "${RED}Enter directory name: "; read DIR; \
-mkdir -p "$DIR"; cd "$DIR" && git clone https://github.com/vdarkobar/npm.git . && \
+cd npm && \
 chmod +x setup.sh && \
 ./setup.sh
 ```
@@ -35,4 +34,3 @@ Nginx Proxy Manager > SSL Certificates > Add SSL Certificate > Let's Encrypt > D
 
 Enable: Use a DNS Challenge > CloudFlare > Credentials File Content * (paste Token after = sign).
 ```
-  
