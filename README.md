@@ -3,7 +3,7 @@
   
 #### *Self-hosted Cloud,*
 <p align="center">
-<i>using <a href="https://cloudflare.com/">Cloudflare</a> Argo Tunnels with <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a> to run Services: 
+<i>using <a href="https://cloudflare.com/">Cloudflare</a> Argo Tunnels with <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a> to run: 
 </p>    
   
 <p align="center">
