@@ -1,6 +1,6 @@
 #### *Self-hosted Cloud,*
 <p align="center">
-<i>using <a href="https://github.com/vdarkobar/Home_Cloud#traefik-proxy">Cloudflare</a>, <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a>, <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian</a> and <a href="https://github.com/vdarkobar/shared/blob/main/Docker.md#docker">Docker</a> to run services: 
+<i>using <a href="https://cloudflare.com/">Cloudflare</a>, <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a> to run services: 
 </p>    
 
 <p align="center">
