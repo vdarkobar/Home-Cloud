@@ -7,7 +7,7 @@
 </p>    
   
 <p align="center">
-  <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a> |
+  <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a> <a href="https://nginxproxymanager.com/">*</a> |
   <a href="https://github.com/vdarkobar/Authelia">Authelia</a> |
   <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
