@@ -20,7 +20,7 @@ with added security of not needing to open *Ports* in your *Firewall*, also fixi
   
 ---  
     
-Login to <a href="https://dash.cloudflare.com/">CloudFlare</a>, add a website with the following settings:
+Login to <a href="https://dash.cloudflare.com/">CloudFlare</a>, <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">add a website</a> with the following settings:
 
 #### Site settings:  
 
