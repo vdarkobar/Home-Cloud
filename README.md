@@ -24,7 +24,9 @@ Firt prepare:
 
 <p align="center">
   1. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a> |  
+  <br><br>
   2. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Bastion</a> |  
+  <br><br>
   3. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Template</a> |
   <br><br>
 </p>
