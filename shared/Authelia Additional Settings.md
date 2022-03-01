@@ -4,7 +4,7 @@
 </p> 
   
 - Applies when Authelia and Protected Endpoints are on the same Docker Host/Server.  
-- If Authelia and Protected Endpoints are on the different Docker Host/Server use <a href="https://github.com/vdarkobar/NPM/blob/main/shared/Different%20Endpoint.md">this</a> example.
+- If Authelia and Protected Endpoints are on the different Docker Host/Server use <a href="https://github.com/vdarkobar/home-cloud/blob/main/shared/Different%20Endpoint.md">this</a> example.
   
 Change/Adjust:
 ```
