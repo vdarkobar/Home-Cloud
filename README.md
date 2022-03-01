@@ -66,5 +66,5 @@ Firewall Settings:
 </pre>
   
 <p align="center">
-<a href="https://github.com/vdarkobar/Home-Cloud">top of the page</a>
+<a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">top of the page</a>
 </p>
