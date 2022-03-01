@@ -19,7 +19,7 @@ sudo apt update
 sudo apt install cloudflared
 ```
 
-Login and create tunnel (it will pool CF certificate)
+Login and create tunnel (*it will pool CF certificate*)
 ```
 cloudflared login
 cloudflared tunnel create <name>
@@ -31,11 +31,12 @@ ls /.cloudflared
 ```
 
 Setting up your DNS records:  
+  
 If exists, delete your A record that points to the domain root (@)  
 Create CNAME record that points to the tunnel UUID (append .cfargotunnel.com)  
 CNAME | @ | UUID.cfargotunnel.com  
-or:
-crate DNS record from the commandline  
+or:  
+crate DNS record from the commandline
 ```
 cloudflared tunnel route dns <UUID or NAME> example.com
 (cloudflared tunnel route dns <UUID or NAME> www.example.com)
