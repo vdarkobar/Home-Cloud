@@ -109,4 +109,4 @@ CNAME | test | @
 NPM Interface > create new Proxy Host pointing to Docker test service http://<IP>:8187  
 Enable SSL (NPM > Proxy Host > SSL) without additional options.  
   
-Visit > test.example.com
+Visit > *test.example.com*
