@@ -221,7 +221,7 @@ ssh-keygen -t ed25519 -a 200    <<< best signature scheme 2021
 ```
 *The parameter -a defines the number of rounds for the key derivation function. The higher this number, the harder it will be for someone trying to brute-force the password of your private key — but also the longer you will have to wait during the initialization of an SSH login session.*
 	
-Copy ID (*public.key*) to <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">desired VM</a> and test:
+Copy ID (*public.key*) to <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">desired VM</a> and test:
 ```
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@ip
 ```
