@@ -8,7 +8,7 @@
 - Install Debian VM (2CPU/2GBRAM/16GBHDD), add SSH Server  
 - Dont set root password during installation (created user will have sudo privilages)  
   
-#### For automatic *disk resize* to work, create VM without SWAP Partition during install process:
+### For automatic *disk resize* to work, create VM without SWAP Partition during install process:
 ```
 Partition disks > Manual > Continue
 Select disk > SCSI3 QEMU HARDDISK > Continue
@@ -33,7 +33,7 @@ ssh user@ip
   
 ### Replace content od the: *~/.bashrc* file with this one: <a href="https://github.com/vdarkobar/shared/blob/main/.bashrc">.bashrc</a> then log out and log back in.
   
-#### Create *SWAP* file:
+### Create *SWAP* file:
 ```
 sudo -i
 dd if=/dev/zero of=/swapfile bs=1024 count=1536000
