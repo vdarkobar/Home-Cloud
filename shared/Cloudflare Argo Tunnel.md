@@ -6,7 +6,7 @@
   
 ---
   
-Login to <a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">Debian Server</a>, and add *CloudFlare* repository
+Login to <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server</a>, and add *CloudFlare* repository
 ```
 sudo echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ buster main' |
 sudo tee /etc/apt/sources.list.d/cloudflare-main.list
