@@ -32,15 +32,15 @@ ls /.cloudflared
 
 Setting up your DNS records:  
   
-If exists, delete your A record that points to the domain root (@)  
-Create CNAME record that points to the tunnel UUID (append *.cfargotunnel.com*)  
-CNAME | @ | UUID.cfargotunnel.com  
-or:  
 create DNS record from the commandline
 ```
 cloudflared tunnel route dns <UUID or NAME> example.com
 (cloudflared tunnel route dns <UUID or NAME> www.example.com)
 ```
+To create DNS record manually:  
+If exists, delete your A record that points to the domain root (@)  
+Create CNAME record that points to the tunnel UUID (append *.cfargotunnel.com*)  
+CNAME | @ | UUID.cfargotunnel.com 
   
 Create configuration file 
 ```
