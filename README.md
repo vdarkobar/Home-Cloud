@@ -35,6 +35,8 @@ with added security of **no open *Ports*** in your *Firewall*, also fixing **Dou
   <br><br>
   Clone <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server Template</a> and install <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Docker.md">Docker</a>
   <br><br>
+  Create <a href="https://dash.cloudflare.com/sign-up">Cloudflare</a> account
+  <br><br>
   Install and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md">Cloudflare Argo Tunnel</a>
   <br><br>
   
