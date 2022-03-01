@@ -230,4 +230,4 @@ sudo rsync -az file.name  user@ip:~/
 ```
 ssh user@ip
 ```
-<a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">top of the page</a>
+<a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md#bastion">top of the page</a>
