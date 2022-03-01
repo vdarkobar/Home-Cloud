@@ -1,5 +1,5 @@
 <p align="left">
-  <a href="https://github.com/vdarkobar/home-cloud">Home</a>
+  <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">Home</a>
 </p>  
   
 # Bastion
