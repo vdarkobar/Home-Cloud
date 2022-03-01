@@ -25,7 +25,7 @@ with added security of **no open *Ports*** in your *Firewall*, also fixing **Dou
   
 ---  
 
-Steps:
+## Steps:
 
   Install and Configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a>
   <br><br>
