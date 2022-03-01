@@ -1,5 +1,5 @@
 <p align="left">
-  <a href="https://github.com/vdarkobar/Authelia">Authelia</a>
+  <a href="https://github.com/vdarkobar/Authelia">Back</a>
   <br><br>
 </p> 
   
