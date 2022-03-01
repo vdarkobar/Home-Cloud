@@ -1,9 +1,9 @@
-# Debian
-## Proxmox Debian Template
-  
-<p align="left">
+ <p align="left">
   <a href="https://github.com/vdarkobar/Home-Cloud">Home</a>
 </p>  
+  
+# Debian
+## Proxmox Debian Template
   
 - Install Debian VM (2CPU/2GBRAM/16GBHDD), add SSH Server  
 - Dont set root password during installation (created user will have sudo privilages)  
