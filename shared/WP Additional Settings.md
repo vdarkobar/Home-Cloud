@@ -1,5 +1,5 @@
 <p align="left">
-  <a href="https://github.com/vdarkobar/WP">WordPress</a>
+  <a href="https://github.com/vdarkobar/WP">Back</a>
   <br><br>
 </p> 
   
