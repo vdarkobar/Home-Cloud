@@ -23,7 +23,7 @@ with added security of not needing to open *Ports* in your *Firewall*, also fixi
 Firt prepare:
 
 <p align="center">
-  <a href="https://github.com/vdarkobar/NPM">Bastion Server</a> </a> |
+  <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a> </a> |
 
   <br><br>
 </p>
