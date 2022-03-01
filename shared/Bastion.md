@@ -1,13 +1,13 @@
 # Bastion
 ## Create Bastion Server
 
-<p align="center">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/bastion.webp">
-</p>
-  
 <p align="left">
   <a href="https://github.com/vdarkobar/home-cloud">Home</a>
 </p>  
+  
+<p align="center">
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/bastion.webp">
+</p>
   
 *Create <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">Proxmox</a> VM: (1CPU/1GBRAM/16GBHDD), add SSH Server.*  
 *Do not set root password during installation (created user will have sudo privileges).*  
