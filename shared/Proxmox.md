@@ -7,7 +7,7 @@
   
 Download <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox VE</a> and create bootable USB drive using <a href="http://rufus.ie/">Rufus</a>.  
   
-Install and configure Proxmox VE.  
+### *Install and configure Proxmox VE.*  
   
  <p align="left">
   <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/ProxMoxHowTo.md">ProxMox how-to</a>
