@@ -60,9 +60,8 @@ Firewall Settings:
   Browser Integrity Check: ON  
 </pre>
   
-  <br><br>
 - Install and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md">Cloudflare Argo Tunnel</a>
-  
+  <br><br>
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">top of the page</a>
 </p>
