@@ -2,12 +2,12 @@
   <a href="https://github.com/vdarkobar/Home-Cloud">Home</a>
 </p>  
   
+# Proxmox
+## Install Proxmox Virtual Environment
+  
 <p align="center">
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/infrastructure.webp">
 </p>
-  
-# Proxmox
-## Install Proxmox Virtual Environment
   
 Download <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox VE</a> and create bootable USB drive using <a href="http://rufus.ie/">Rufus</a>.  
   
