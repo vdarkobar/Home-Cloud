@@ -1,6 +1,12 @@
-#cloudflared
-
-Add repo
+ <p align="left">
+  <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">Home</a>
+</p>  
+  
+# Cloudflared
+  
+---
+  
+Add CloudFlare repository
 ```
 sudo echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ buster main' |
 sudo tee /etc/apt/sources.list.d/cloudflare-main.list
