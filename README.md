@@ -19,6 +19,16 @@
 with added security of not needing to open *Ports* in your *Firewall*, also fixing *Double NAT* situations.
   
 ---  
+
+Firt prepare:
+
+<p align="center">
+  <a href="https://github.com/vdarkobar/NPM">Bastion Server</a> </a> |
+
+  <br><br>
+</p>
+
+---  
     
 Login to <a href="https://dash.cloudflare.com/">CloudFlare</a>, <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">add a website</a> with the following settings:
 
