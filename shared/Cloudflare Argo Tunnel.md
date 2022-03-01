@@ -33,7 +33,7 @@ ls /.cloudflared
 Setting up your DNS records:  
   
 If exists, delete your A record that points to the domain root (@)  
-Create CNAME record that points to the tunnel UUID (append .cfargotunnel.com)  
+Create CNAME record that points to the tunnel UUID (append *.cfargotunnel.com*)  
 CNAME | @ | UUID.cfargotunnel.com  
 or:  
 crate DNS record from the commandline
