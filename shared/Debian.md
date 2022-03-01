@@ -2,7 +2,7 @@
 ## Proxmox Debian Template
   
 <p align="left">
-  <a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">Home</a>
+  <a href="https://github.com/vdarkobar/Home-Cloud">Home</a>
 </p>  
   
 - Install Debian VM (2CPU/2GBRAM/16GBHDD), add SSH Server  
@@ -319,4 +319,4 @@ Click
   
 #### Convert VM to Template. 
   
-<a href="https://github.com/vdarkobar/shared/blob/main/Debian.md#debian">top of the page</a>
+<a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md#debian">top of the page</a>
