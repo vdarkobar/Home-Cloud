@@ -23,11 +23,11 @@ with added security of not needing to open *Ports* in your *Firewall*, also fixi
 Firt prepare:
 
 <p align="center">
-  1. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a> |  
+  1. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a>
   <br><br>
-  2. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Bastion</a> |  
+  2. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Bastion Server</a>
   <br><br>
-  3. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Template</a> |
+  3. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server Template</a>
   <br><br>
 </p>
 
