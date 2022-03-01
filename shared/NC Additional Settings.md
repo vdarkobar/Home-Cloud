@@ -51,7 +51,7 @@ https://<NextCloud> > Account > Settings > Collabora Online Development Edition
 Enter *Collabora* - Document Server url (*no Port Number needed*):
   
 <p align="center">
-  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/Collabora.webp">
+  <img src="https://github.com/vdarkobar/home-cloud/blob/main/shared/Collabora.webp">
 </p>
 
 Colabora Admin interface (username admin):
@@ -62,5 +62,5 @@ https://yourdomain.tld/loleaflet/dist/admin/admin.html
 #### Setup SMTP server for gmail (use App-passwords option if 2fa is enabled on the account):
   
 <p align="center">
-  <img src="https://github.com/vdarkobar/NPM/blob/main/shared/smtp.webp">
+  <img src="https://github.com/vdarkobar/home-cloud/blob/main/shared/smtp.webp">
 </p>
