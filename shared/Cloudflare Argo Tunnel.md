@@ -106,7 +106,8 @@ create CNAME record for Subdomain that points to the UUID (append *.cfargotunnel
 ```
 CNAME | test | @
 ```
-NPM Interface > create new Proxy Host pointing to Docker test service http://<IP>:8187  
-Enable SSL (NPM > Proxy Host > SSL) without additional options.  
+  
+NPM Interface > Add Proxy Host, pointing to Docker test service at http://Server-IP:8187  
+Enable SSL: NPM Interface > Proxy Host > SSL, without additional options.  
   
 Visit > *test.example.com*
