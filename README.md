@@ -25,13 +25,13 @@ with added security of **no open *Ports*** in your *Firewall*, also fixing **Dou
   
 ---  
 
-First prepare:
+Steps:
 
   Install and Configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a>
   <br><br>
-  2. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md">Bastion Server</a>
+  Create and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md">Bastion Server</a>
   <br><br>
-  3. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server Template</a>
+  Create and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server Template</a>
   <br><br>
 
 
