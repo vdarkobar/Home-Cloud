@@ -2,13 +2,14 @@
 ---  
   
 # *Self-hosted Cloud,*
-<p align="center">
-<i>using <a href="https://www.cloudflare.com/products/tunnel/">Cloudflare Argo Tunnels</a> with <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a> to run: 
-</p>  
   
 <p align="center">
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/infrastructure.webp">
 </p>
+  
+<p align="center">
+<i>using <a href="https://www.cloudflare.com/products/tunnel/">Cloudflare Argo Tunnels</a> with <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a> to run: 
+</p>  
   
 <p align="center">
   <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a> <a href="https://nginxproxymanager.com/">*</a> |
