@@ -111,3 +111,8 @@ NPM Interface > Add Proxy Host, pointing to Docker test service at `http://Serve
 Enable SSL: NPM Interface > Proxy Host > SSL, without additional options.  
   
 Visit > *test.example.com*
+  
+<p align="center">
+<a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">back to top</a>
+</p>
+  
