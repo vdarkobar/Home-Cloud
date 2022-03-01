@@ -8,8 +8,8 @@
   
 <p align="center">
   <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a> <a href="https://nginxproxymanager.com/">*</a> |
-  <a href="https://github.com/vdarkobar/Authelia">Authelia</a> |
-  <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> |  
+  <a href="https://github.com/vdarkobar/Authelia">Authelia</a> <a href="https://www.authelia.com/">*</a> |
+  <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> <a href="https://github.com/dani-garcia/vaultwarden">*</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
   <a href="https://github.com/vdarkobar/WP">WordPress</a> |  
   <a href="https://github.com/vdarkobar/Calibre-web">Calibre-web</a> |  
