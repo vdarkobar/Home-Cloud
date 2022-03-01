@@ -2,10 +2,10 @@
 ## Create Bastion Server
   
 <p align="left">
-  <a href="https://github.com/vdarkobar/Home_Cloud#small-home-cloud">Home</a>
+  <a href="https://github.com/vdarkobar/home-cloud">Home</a>
 </p>  
   
-*Create <a href="https://github.com/vdarkobar/shared/blob/main/Proxmox.md#proxmox">Proxmox</a> VM: (1CPU/1GBRAM/16GBHDD), add SSH Server.*  
+*Create <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">Proxmox</a> VM: (1CPU/1GBRAM/16GBHDD), add SSH Server.*  
 *Do not set root password during installation (created user will have sudo privileges).*  
   
 ### Update, install packages and reboot:
