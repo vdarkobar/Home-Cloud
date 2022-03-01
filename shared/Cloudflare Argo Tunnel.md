@@ -102,7 +102,7 @@ Test it with docker:
 ```
 sudo docker run -it --rm -d -p 8187:80 --name web nginx
 ```
-create CNAME record for Subdomain that points to the UUID (append .cfargotunnel.com)
+create CNAME record for Subdomain that points to the UUID (append *.cfargotunnel.com*)
 ```
 CNAME | test | @
 ```
