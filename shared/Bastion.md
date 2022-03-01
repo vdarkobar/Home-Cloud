@@ -47,7 +47,7 @@ Unattended-Upgrade::Automatic-Reboot "false";
 Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 ```
   
-#### Replace content od the: *~/.bashrc* file with the contents of this one: <i><a href="https://github.com/vdarkobar/shared/blob/main/.bashrc">.bashrc</a></i>.  
+#### Replace content od the: *~/.bashrc* file with the contents of this one: <i><a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/.bashrc">.bashrc</a></i>.  
   
 Reboot Server.
 ```
