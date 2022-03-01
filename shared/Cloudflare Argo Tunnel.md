@@ -36,7 +36,7 @@ If exists, delete your A record that points to the domain root (@)
 Create CNAME record that points to the tunnel UUID (append *.cfargotunnel.com*)  
 CNAME | @ | UUID.cfargotunnel.com  
 or:  
-crate DNS record from the commandline
+create DNS record from the commandline
 ```
 cloudflared tunnel route dns <UUID or NAME> example.com
 (cloudflared tunnel route dns <UUID or NAME> www.example.com)
@@ -61,9 +61,9 @@ logfile: /var/log/cloudflared.log
   
 Run as as Service:
   
-Create the cloudflared directory (if it doesn't exist)
+Create the Cloudflared directory (if it doesn't exist)
 ```
-mkdir -p /etc/cloudflared
+sudo mkdir -p /etc/cloudflared
 ```
 Copy Argo certificate into /etc/cloudflared directory
 ```
@@ -106,7 +106,7 @@ create CNAME record for Subdomain that points to the UUID (append *.cfargotunnel
 ```
 CNAME | test | @
 ```
-NPM Interface > create new Proxy Host pointing to Docker test service http://<IP>:8187
-Enable SSL (NPM > Proxy Host > SSL) without additional options.
+NPM Interface > create new Proxy Host pointing to Docker test service http://<IP>:8187  
+Enable SSL (NPM > Proxy Host > SSL) without additional options.  
   
 Visit > test.example.com
