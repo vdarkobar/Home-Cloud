@@ -1,10 +1,10 @@
-# Bastion
-## Create Bastion Server
-
 <p align="left">
   <a href="https://github.com/vdarkobar/home-cloud">Home</a>
 </p>  
   
+# Bastion
+## Create Bastion Server
+
 <p align="center">
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/bastion.webp">
 </p>
