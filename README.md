@@ -20,7 +20,7 @@ with added security of not needing to open *Ports* in your *Firewall*, also fixi
   
 ---  
 
-Firt prepare:
+First prepare:
 
 <p align="center">
   1. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a>
