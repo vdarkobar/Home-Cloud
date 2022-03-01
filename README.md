@@ -23,9 +23,9 @@ with added security of not needing to open *Ports* in your *Firewall*, also fixi
 Firt prepare:
 
 <p align="center">
-  <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a> |
-  <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Bastion</a> |
-  <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Template</a> |
+  1. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a> |  
+  2. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Bastion</a> |  
+  3. <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Template</a> |
   <br><br>
 </p>
 
