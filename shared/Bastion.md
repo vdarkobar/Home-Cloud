@@ -225,12 +225,6 @@ Copy ID (*public.key*) to <a href="https://github.com/vdarkobar/Home-Cloud/blob/
 ```
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@ip
 ```
-  
-Copy file with *rsync*:
-```
-sudo rsync -az file.name  user@ip:~/
-```
-  
 ```
 ssh user@ip
 ```
