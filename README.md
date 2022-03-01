@@ -24,9 +24,9 @@
 with added security of **no open *Ports*** in your *Firewall*, also fixing **Double NAT** situations!
   
 ---  
-
+  
 ## Steps:
-
+  
   Install and Configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Proxmox VE</a>
   <br><br>
   Create and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md">Bastion Server</a>
@@ -35,9 +35,11 @@ with added security of **no open *Ports*** in your *Firewall*, also fixing **Dou
   <br><br>
   Clone <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server Template</a> and install <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Docker.md">Docker</a>
   <br><br>
-
+  Install and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md">Cloudflare Argo Tunnel</a>
+  <br><br>
+  
 ---  
-    
+  
 Login to <a href="https://dash.cloudflare.com/">CloudFlare</a>, <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">add a website</a> with the following settings:
 
 #### Site settings:  
