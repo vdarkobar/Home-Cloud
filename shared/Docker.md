@@ -3,7 +3,7 @@
 </p>   
   
 # Docker
-## Install Docke and Docker compose
+## *Install Docker and Docker compose*
   
 --- 
   
