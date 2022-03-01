@@ -40,8 +40,6 @@ with added security of **no open *Ports*** in your *Firewall*, also fixing **Dou
   Install and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md">Cloudflare Argo Tunnel</a>
   <br><br>
   
----  
-  
 Login to <a href="https://dash.cloudflare.com/">CloudFlare</a>, <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">add a website</a> with the following settings:
 
 #### Site settings:  
@@ -68,3 +66,6 @@ Firewall Settings:
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">top of the page</a>
 </p>
+
+---  
+  
