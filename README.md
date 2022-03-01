@@ -12,7 +12,7 @@
   <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> <a href="https://github.com/dani-garcia/vaultwarden">*</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> <a href="https://nextcloud.com/">*</a> |  
   <a href="https://github.com/vdarkobar/WP">WordPress</a> <a href="https://wordpress.com/">*</a> |  
-  <a href="https://github.com/vdarkobar/Calibre-web">Calibre-web</a> <a href="https://github.com/janeczku/calibre-web">*</a>|  
+  <a href="https://github.com/vdarkobar/Calibre-web">Calibre-web</a> <a href="https://github.com/janeczku/calibre-web">*</a> |  
   <br><br>
 </p>  
   
