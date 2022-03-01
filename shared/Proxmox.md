@@ -2,6 +2,10 @@
   <a href="https://github.com/vdarkobar/Home-Cloud">Home</a>
 </p>  
   
+<p align="center">
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/infrastructure.webp">
+</p>
+  
 # Proxmox
 ## Install Proxmox Virtual Environment
   
