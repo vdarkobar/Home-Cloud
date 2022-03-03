@@ -100,7 +100,7 @@ cloudflared tunnel delete -f <NAME>
   
 Test it with docker:
 ```
-sudo docker run -it --rm -d -p 8187:80 --name web nginx
+sudo docker run -it --rm -d -p 8187:80 --name web1 nginx
 sudo docker run -dit --name web2 -p 8188:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd
 ```
 create CNAME record for Subdomain that points to the UUID (append *.cfargotunnel.com*)
