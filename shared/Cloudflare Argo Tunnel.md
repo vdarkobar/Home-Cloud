@@ -32,15 +32,16 @@ ls /.cloudflared
 
 Setting up your DNS records:  
   
-create DNS record from the commandline
+Create DNS record from the commandline
+*If already exists, delete your A record (A | example.com | YOUR WAN IP)*
 ```
 cloudflared tunnel route dns <UUID or NAME> example.com
 (cloudflared tunnel route dns <UUID or NAME> www.example.com)
 ```
-To create DNS record manually:  
-If exists, delete your A record that points to the domain root (@)  
+  
+`To create DNS record manually:  
 Create CNAME record that points to the tunnel UUID (append *.cfargotunnel.com*)  
-CNAME | @ | UUID.cfargotunnel.com 
+CNAME | example.com | UUID.cfargotunnel.com`
   
 Create configuration file 
 ```
@@ -53,7 +54,7 @@ credentials-file: /home/<user>/.cloudflared/UUID.json
 
 ingress:
   - hostname: "*.example.com"
-    service: http://<NPM-IP-WITHOUT-PORT-NUMMBER>   # test with port nummber
+    service: http://<NPM-IP-WITHOUT-PORT-NUMMBER>   # test it with port nummber (80,443)
   - service: http_status:404
 
 logfile: /var/log/cloudflared.log
@@ -81,6 +82,7 @@ sudo systemctl enable cloudflared && \
 sudo systemctl start cloudflared && \
 sudo systemctl status cloudflared
 ```
+  
 After creating or modifying any unit files, reload systemd:
 ```
 sudo systemctl restart cloudflared
@@ -103,16 +105,19 @@ Test it with docker:
 sudo docker run -it --rm -d -p 8187:80 --name web1 nginx && \
 sudo docker run -it --rm -d -p 8188:80 --name web2 httpd
 ```
-create CNAME record for Subdomains that points to the UUID (append *.cfargotunnel.com*)
-```
-CNAME | test1 | <TunnelID>.cfargotunnel.com
-CNAME | test2 | <TunnelID>.cfargotunnel.com
-```
   
 NPM Interface > Add Proxy Host, pointing to Docker test service at `http://Server-IP:8187`  
 Enable SSL: NPM Interface > Proxy Host > SSL, without additional options.  
   
 Visit > *test.example.com*
+  
+---
+  
+create CNAME record for Subdomains that points to the UUID (append *.cfargotunnel.com*)
+```
+CNAME | test1 | <TunnelID>.cfargotunnel.com
+CNAME | test2 | <TunnelID>.cfargotunnel.com
+```
   
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md#cloudflared">back to top</a>
