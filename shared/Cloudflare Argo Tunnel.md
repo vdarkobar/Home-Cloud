@@ -113,11 +113,40 @@ Visit > *test.example.com*
   
 ---
   
-create CNAME record for Subdomains that points to the UUID (append *.cfargotunnel.com*)
+Forwarding network trafic directly (no Reverse Proxy)
+
+*If already exists, delete your CNAME record that points to the tunnel UUID*  
+CNAME | example.com | UUID.cfargotunnel.com`
+
+Create CNAME record for Subdomains that points to the UUID (append *.cfargotunnel.com*)
 ```
 CNAME | test1 | <TunnelID>.cfargotunnel.com
 CNAME | test2 | <TunnelID>.cfargotunnel.com
 ```
+  
+Create configuration file 
+```
+sudo nano .cloudflared/config.yml
+```
+  
+with the following content:
+```
+tunnel: UUID
+credentials-file: /home/<user>/.cloudflared/UUID.json
+
+ingress:
+    # Service 01
+  - hostname: test1.example.com
+    service: http://192.168.1.117:8187
+    # Service 02
+  - hostname: test2.example.com
+    service: http://192.168.1.117:8188
+    # Catch-all
+  - service: http_status:404
+
+logfile: /var/log/cloudflared.log
+```
+  
   
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md#cloudflared">back to top</a>
