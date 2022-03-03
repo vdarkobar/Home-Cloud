@@ -103,7 +103,7 @@ Test it with docker:
 sudo docker run -it --rm -d -p 8187:80 --name web1 nginx && \
 sudo docker run -it --rm -d -p 8188:80 --name web2 httpd
 ```
-create CNAME record for Subdomain that points to the UUID (append *.cfargotunnel.com*)
+create CNAME record for Subdomains that points to the UUID (append *.cfargotunnel.com*)
 ```
 CNAME | test | @
 ```
