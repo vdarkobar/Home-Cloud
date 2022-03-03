@@ -145,10 +145,10 @@ credentials-file: /home/<user>/.cloudflared/UUID.json
 ingress:
     # Service 01
   - hostname: test1.example.com
-    service: http://192.168.1.117:8187
+    service: http://<IP>:8187
     # Service 02
   - hostname: test2.example.com
-    service: http://192.168.1.117:8188
+    service: http://<IP>:8188
     # Catch-all
   - service: http_status:404
 
