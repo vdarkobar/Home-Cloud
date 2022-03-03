@@ -60,7 +60,7 @@ ingress:
 logfile: /var/log/cloudflared.log
 ```
   
-Run as as Service:
+Run as as Service (*persistent across reboots*):
   
 Create the Cloudflared directory (if it doesn't exist)
 ```
