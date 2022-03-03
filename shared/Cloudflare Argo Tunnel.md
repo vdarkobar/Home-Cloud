@@ -22,6 +22,8 @@ sudo apt install cloudflared
 Login and create tunnel (*it will pool CF certificate*)
 ```
 cloudflared login
+```
+```
 cloudflared tunnel create <name>
 ```
 
@@ -113,12 +115,17 @@ Visit > *test.example.com*
   
 ---
   
-Forwarding network trafic directly (no Reverse Proxy)
+Forwarding network trafic directly to Services (no Reverse Proxy)
 
-*If already exists, delete your CNAME record that points to the tunnel UUID*  
-CNAME | example.com | UUID.cfargotunnel.com`
-
-Create CNAME record for Subdomains that points to the UUID (append *.cfargotunnel.com*)
+*If already exists, delete your CNAME record that points to the tunnel UUID, (CNAME | example.com | UUID.cfargotunnel.com)*
+  
+create tunnel
+  
+Create CNAME record for Subdomains that points to the UUID
+```
+cloudflared tunnel route dns <UUID or NAME> test1.example.com
+cloudflared tunnel route dns <UUID or NAME> test2.example.com
+```
 ```
 CNAME | test1 | <TunnelID>.cfargotunnel.com
 CNAME | test2 | <TunnelID>.cfargotunnel.com
@@ -147,6 +154,7 @@ ingress:
 logfile: /var/log/cloudflared.log
 ```
   
+run tunnel
   
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md#cloudflared">back to top</a>
