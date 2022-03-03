@@ -105,7 +105,8 @@ sudo docker run -it --rm -d -p 8188:80 --name web2 httpd
 ```
 create CNAME record for Subdomains that points to the UUID (append *.cfargotunnel.com*)
 ```
-CNAME | test | <TunnelID>.cfargotunnel.com
+CNAME | test1 | <TunnelID>.cfargotunnel.com
+CNAME | test2 | <TunnelID>.cfargotunnel.com
 ```
   
 NPM Interface > Add Proxy Host, pointing to Docker test service at `http://Server-IP:8187`  
