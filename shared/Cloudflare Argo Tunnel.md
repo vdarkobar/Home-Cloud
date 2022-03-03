@@ -156,6 +156,7 @@ logfile: /var/log/cloudflared.log
 ```
   
 Run tunnel
+Test it with docker
   
 --- 
  
