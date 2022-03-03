@@ -116,10 +116,10 @@ Visit > *test.example.com*
 ---
   
 Forwarding network trafic directly to Services (no Reverse Proxy)
-
+  
 *If already exists, delete your CNAME record that points to the tunnel UUID, (CNAME | example.com | UUID.cfargotunnel.com)*
   
-create tunnel
+Create tunnel
   
 Create CNAME record for Subdomains that points to the UUID
 ```
@@ -154,8 +154,10 @@ ingress:
 logfile: /var/log/cloudflared.log
 ```
   
-run tunnel
+Run tunnel
   
+--- 
+ 
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md#cloudflared">back to top</a>
 </p>
