@@ -85,7 +85,7 @@ proxy_cache_bypass $cookie_session;
 proxy_no_cache $cookie_session;
 proxy_buffers 64 256k;
 
-set_real_ip_from 192.168.1.0/24; #Make sure this matches your network setup.
+set_real_ip_from 192.168.1.0/16; #Make sure this matches your network setup.
 real_ip_header CF-Connecting-IP;
 real_ip_recursive on;
 
