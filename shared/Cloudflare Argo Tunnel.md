@@ -53,7 +53,7 @@ credentials-file: /home/<user>/.cloudflared/UUID.json
 
 ingress:
   - hostname: "*.example.com"
-    service: http://<NPM-IP-WITHOUT-PORT-NUMMBER>
+    service: http://<NPM-IP-WITHOUT-PORT-NUMMBER>   # test with port nummber
   - service: http_status:404
 
 logfile: /var/log/cloudflared.log
