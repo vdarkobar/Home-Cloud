@@ -106,7 +106,7 @@ sudo docker run -it --rm -d -p 8187:80 --name web1 nginx && \
 sudo docker run -it --rm -d -p 8188:80 --name web2 httpd
 ```
   
-NPM Interface > Add Proxy Host, pointing to Docker test service at `http://Server-IP:8187`  
+NPM Interface > Add Proxy Host, pointing to Docker test service at `http://Server-IP:8187`, `http://Server-IP:8188`  
 Enable SSL: NPM Interface > Proxy Host > SSL, without additional options.  
   
 Visit > *test.example.com*
