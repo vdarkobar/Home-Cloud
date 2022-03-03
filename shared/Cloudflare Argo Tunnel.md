@@ -126,6 +126,7 @@ Create CNAME record for Subdomains that points to the UUID
 cloudflared tunnel route dns <UUID or NAME> test1.example.com
 cloudflared tunnel route dns <UUID or NAME> test2.example.com
 ```
+result
 ```
 CNAME | test1 | <TunnelID>.cfargotunnel.com
 CNAME | test2 | <TunnelID>.cfargotunnel.com
