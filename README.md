@@ -62,6 +62,11 @@ Firewall Settings:
   
 - Install and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md">Cloudflare Argo Tunnel</a>
   <br><br>
+  
+<p align="center">
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/argo.webp">
+</p>
+  
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">all set to add Services</a>
 </p>
