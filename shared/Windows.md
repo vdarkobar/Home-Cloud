@@ -50,7 +50,8 @@ dism /online /set-edition:ServerDatacenter /productkey:WMDGN-G9PQG-XVVXX-R3X43-6
   
 <a href="https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys"> Use a GVLK (KMS) key to proceed and build the ISO.</a>  
   
-Open Command Prompt or PowerShell in your Downloads folder. Adjust for the name of the downloaded file and run: 
+Open Command Prompt or PowerShell in your Downloads folder.  
+Adjust for the name of the downloaded file and run: 
 ```
 .\MediaCreationTool21H1.exe /Eula Accept /Retail /MediaArch x64 /MediaLangCode en-US /MediaEdition EnterpriseN
 ```
