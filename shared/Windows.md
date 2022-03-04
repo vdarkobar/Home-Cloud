@@ -48,7 +48,7 @@ dism /online /set-edition:ServerDatacenter /productkey:WMDGN-G9PQG-XVVXX-R3X43-6
 <a href="https://www.microsoft.com/en-us/software-download/windows10"> Download the latest version of Windows 10 Media Creation Tool.</a>  
 <a href="https://www.microsoft.com/en-us/software-download/windows11"> Download the latest version of Windows 10 Media Creation Tool.</a>  
   
-<a href="https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys"> Use a GVLK (KMS) key to proceed and build the ISO.</a>  
+<a href="https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys"> Use a GVLK (KMS) key to proceed and build the ISO.</a> <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/GVLK.md"> *</a> 
   
 Open Command Prompt or PowerShell in your Downloads folder.  
 Adjust for the name of the downloaded file and run: 
