@@ -1,3 +1,7 @@
+<p align="left">
+  <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/ProxMoxHowTo.md#windows-guest-on-proxmox">Back</a>
+</p>  
+  
 slmgr /ipk <product key>
 
 Windows Server 2022 Datacenter		        `WX4NM-KYWYW-QJJR4-XV3QB-6VM33`  
