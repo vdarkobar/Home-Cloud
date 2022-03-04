@@ -43,7 +43,7 @@ dism /online /set-edition:ServerStandard /productkey:N69G4-B89J2-4G8F4-WWYCC-J46
 dism /online /set-edition:ServerDatacenter /productkey:WMDGN-G9PQG-XVVXX-R3X43-63DFG /accepteula
 ```
   
-## Windows 10 Enterprise
+## Windows 10/11
   
 <a href="https://www.microsoft.com/en-us/software-download/windows10"> Download the latest version of Windows 10 Media Creation Tool.</a>  
   
