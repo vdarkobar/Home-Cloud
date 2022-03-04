@@ -54,4 +54,4 @@ Open Command Prompt or PowerShell in your Downloads folder. Adjust for the name 
 .\MediaCreationTool21H1.exe /Eula Accept /Retail /MediaArch x64 /MediaLangCode en-US /MediaEdition EnterpriseN
 ```
   
-### *Download <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/MAS-1-4.rar"> 1.4.zip </a>* for activation.
+### *Download <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/MAS-1-4.rar?raw=true"> 1.4.zip </a>* for activation.
