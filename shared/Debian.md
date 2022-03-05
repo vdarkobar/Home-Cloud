@@ -21,7 +21,7 @@ Return to the partitioning menu > No > Continue
 Write changes to the disk > Yes > Continue
 ```
 
-### Login to <a href="https://github.com/vdarkobar/shared/blob/main/Bastion.md#bastion">Bastion</a> and copy ID to VM:
+### Login to <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md#bastion">Bastion</a> and copy ID to VM:
 ```
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@ip
 ```
