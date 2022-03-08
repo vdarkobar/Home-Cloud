@@ -14,7 +14,7 @@ add custom homeserver block to the top of file:
     },
 ```
   
-element-config.json
+*element-config.json*  
 ```
 {
     "default_server_config": {
