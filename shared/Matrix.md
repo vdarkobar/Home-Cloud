@@ -18,7 +18,7 @@ sudo docker run -it --rm \
     matrixdotorg/synapse:latest generate
 ```
   
-To create *element-config.json* use: <a href="https://develop.element.io/config.json">example file</a>, 
+To create *element-config.json* use: <a href="https://develop.element.io/config.json">example file</a>,  
 remove `"default_server_name": "matrix.org"` (*deprecated*),  
 add custom homeserver block to the top of file:  
 *(skip this step, file already exists)*
