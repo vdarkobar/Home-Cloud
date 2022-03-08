@@ -111,7 +111,7 @@ add custom homeserver block to the top of file:
 }
 ```
 
-nginx/matrix.conf
+*nginx/matrix.conf*
 ```
 server {
   listen         80 default_server;
@@ -132,14 +132,14 @@ server {
 }
 ```
 
-nginx/www/.well-known/matrix/server
+*nginx/www/.well-known/matrix/server*
 ```
 {
   "m.server": "matrix.example.com:443"
 }
 ```
 
-nginx/www/.well-known/matrix/client
+*nginx/www/.well-known/matrix/client*
 ```
 {
   "m.homeserver": {
