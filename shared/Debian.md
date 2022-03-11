@@ -31,8 +31,6 @@ Test: SSH to VM:
 ssh user@ip
 ```
   
-### Setup *bash* and *tmux*: <i><a href="https://github.com/vdarkobar/dotfiles">.profiles</a></i>.  
-  
 ### Create *SWAP* file:
 ```
 sudo -i
@@ -91,6 +89,8 @@ sudo apt install -y \
   cloud-initramfs-growroot \
   software-properties-common
 ```
+  
+### Customise *bash* and *tmux*: <i><a href="https://github.com/vdarkobar/dotfiles">profiles</a></i>.  
   
 ### Enable *unattended-upgrades*:
 ```
