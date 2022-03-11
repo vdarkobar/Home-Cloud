@@ -51,6 +51,7 @@ sudo apt install -y \
   ufw \
   wget \
   curl \
+  tmux \
   gnupg2 \
   argon2 \
   fail2ban \
@@ -72,6 +73,7 @@ sudo apt install -y \
   ufw \
   wget \
   curl \
+  tmux \
   gnupg2 \
   argon2 \
   fail2ban \
