@@ -31,7 +31,7 @@ Test: SSH to VM:
 ssh user@ip
 ```
   
-#### Setup *bash* and *tmux*: <i><a href="https://github.com/vdarkobar/dotfiles">.profiles</a></i>.  
+### Setup *bash* and *tmux*: <i><a href="https://github.com/vdarkobar/dotfiles">.profiles</a></i>.  
   
 ### Create *SWAP* file:
 ```
