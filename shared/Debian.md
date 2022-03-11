@@ -46,6 +46,7 @@ Exit and reboot.
 ```
 sudo apt update && \
 sudo apt install -y \
+  git \
   ufw \
   wget \
   curl \
