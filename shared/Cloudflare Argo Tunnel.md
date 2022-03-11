@@ -41,7 +41,7 @@ cloudflared tunnel route dns <UUID or NAME> example.com
 (cloudflared tunnel route dns <UUID or NAME> www.example.com)
 ```
   
-`To create DNS record manually:  
+`To create DNS record manually (no need):  
 Create CNAME record that points to the tunnel UUID (append *.cfargotunnel.com*)  
 CNAME | example.com | UUID.cfargotunnel.com`
   
