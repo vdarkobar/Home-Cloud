@@ -46,7 +46,7 @@ Unattended-Upgrade::Automatic-Reboot "false";
 Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 ```
   
-#### Replace content od the: *~/.bashrc* file with the contents of this one: <i><a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/.bashrc">.bashrc</a></i>.  
+#### Setup bash and tmux : <i><a href="https://github.com/vdarkobar/dotfiles">.profiles</a></i>.  
   
 Reboot Server.
 ```
