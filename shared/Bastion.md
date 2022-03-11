@@ -19,6 +19,7 @@ sudo apt install -y \
   ufw \
   curl \
   wget \
+  tmux \
   gnupg2 \
   fail2ban \
   net-tools \
