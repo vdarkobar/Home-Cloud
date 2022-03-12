@@ -29,7 +29,7 @@ cloudflared tunnel create <name>
 
 Check if cert.pem file is there
 ```
-ls /.cloudflared
+ls .cloudflared
 ```
 
 Setting up your DNS records:  
