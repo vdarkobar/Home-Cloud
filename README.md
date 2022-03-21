@@ -36,10 +36,8 @@ with added security of **no open *Ports*** in your *Firewall*, also fixing probl
   <br><br>
 - Clone <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server Template</a> and install <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Docker.md">Docker</a>
   <br><br>
-- Create <a href="https://dash.cloudflare.com/sign-up">Cloudflare</a> account
-  <br><br>
-- Login to <a href="https://dash.cloudflare.com/">CloudFlare</a>, <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">add a website</a> with the following settings:
-
+- Create <a href="https://dash.cloudflare.com/sign-up">Cloudflare</a> account or login to <a href="https://dash.cloudflare.com/">CloudFlare</a>, <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">and add a website</a> with the following settings:
+  
 #### Site settings:  
 
 <pre>
