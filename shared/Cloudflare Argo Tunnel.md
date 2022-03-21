@@ -5,7 +5,9 @@
 # Cloudflared
   
 ---
-  
+
+<a href="https://www.cloudflare.com/products/tunnel/">Cloudflare Argo Tunnels</a> <a href="https://blog.cloudflare.com/argo-tunnels-that-live-forever/">*</a>
+
 Login to <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server</a>, and add *CloudFlare* repository
 ```
 sudo echo 'deb [signed-by=/usr/share/keyrings/cloudflare-main.gpg] https://pkg.cloudflare.com/ buster main' |
