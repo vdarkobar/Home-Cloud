@@ -8,7 +8,7 @@
 </p>
   
 <p align="center">
-<i>using <a href="https://www.cloudflare.com/products/tunnel/">Cloudflare Argo Tunnels</a> <a href="https://blog.cloudflare.com/argo-tunnels-that-live-forever/">*</a> with <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a> to run: 
+<i>using <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a> to run: 
 </p>  
   
 <p align="center">
