@@ -13,29 +13,25 @@ Add free space to Cloned VM: *VM > Hardware > Hard Disk > Resize disk*
   
 ### Docker:
 ```
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo mkdir -p /etc/apt/keyrings
 ```
 ```
-sudo add-apt-repository \
-  "deb [arch=amd64] https://download.docker.com/linux/debian \
-  $(lsb_release -cs) \
-  stable"
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
 ```
 ```
-sudo apt update && sudo apt install -y docker-ce docker-ce-cli containerd.io
-sudo docker -v
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
-  
-### Docker Compose:  
-  
-[Check the current Docker Compose release here](https://github.com/docker/compose/releases):
 ```
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose  
-sudo chmod +x /usr/local/bin/docker-compose
-sudo docker-compose --version
+sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo docker --version && docker compose version
+```
+```
+sudo docker --version && docker compose version
 ```
   
-
 ### Securing Docker:  
 
 <p align="center">
