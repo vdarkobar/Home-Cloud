@@ -2,12 +2,12 @@
   <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Back</a>
 </p>  
   
+## Use virtio or vmware as virtual grafic card.
+  
 ## Cron expression to update Proxmox every month "At 00:00, on day 1 of the month":
 ```
 0 0 1 * * apt update && apt dist-upgrade -y && reboot
 ```
-  
-## Use virtio or vmware as virtual grafic card.
   
 ## Enable PCIE passthrough, PVE 7.2:
 ```
