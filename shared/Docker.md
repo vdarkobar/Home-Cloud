@@ -32,6 +32,10 @@ sudo docker --version && docker compose version
 ```
 sudo docker --version && docker compose version
 ```
+```
+sudo systemctl enable docker.service
+sudo systemctl enable containerd.service
+```
   
 ### Securing Docker:  
 
