@@ -52,7 +52,7 @@ qm rescan
 ## Figure out the /dev/id-s for the disks. The zpool command needs those dev/id-s to know which disks will be in the array.
 ## Remove the duplicates with extra characters. These correspond to partitions on the disks.
 ```
-ls /dev/disk/by-uuid
+ls /dev/disk/by-id
 ```
 
 # ZFS
