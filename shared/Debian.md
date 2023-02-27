@@ -9,7 +9,7 @@
 - Do not set root password during installation *(this way created user will gain sudo privileges)*.  
   
 ### VM disk *Resize*:
-For ProxMox VM disk *Resize* option to work, create VM without SWAP Partition during install process
+For ProxMox VM disk *Resize* option to work, create VM without SWAP Partition during install process  
 *VM > Hardware > Hard Disk > Disk Action > Resize*
 ```bash
 Partition disks > Manual > Continue
