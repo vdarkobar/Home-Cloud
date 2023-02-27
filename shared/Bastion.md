@@ -46,7 +46,7 @@ Unattended-Upgrade::Automatic-Reboot "false";
 Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 ```
   
-### Setup *bash* and <i><a href="[https://github.com/vdarkobar/dotfiles](https://github.com/tmux/tmux/wiki)">.tmux</a></i> <i><a href="https://github.com/vdarkobar/dotfiles">.profiles</a></i>.  
+### Setup *bash* and <a href="[https://github.com/vdarkobar/dotfiles](https://github.com/tmux/tmux/wiki)">tmux</a> <a href="https://github.com/vdarkobar/dotfiles">.profiles</a>.  
   
 Reboot Server:
 ```bash
