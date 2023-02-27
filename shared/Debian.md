@@ -11,13 +11,21 @@
 ### For automatic *disk resize* to work, create VM without SWAP Partition during install process:
 ```
 Partition disks > Manual > Continue
+
 Select disk > SCSI3 QEMU HARDDISK > Continue
+
 Create new empty Partition > Yes > Continue
+
 New Partition Size > Continue
+
 Primary > Continue
+
 Bootable Flag > On > Done setting up the Partition > Continue
+
 Finish partitioning and write changes to the disk > Continue
+
 Return to the partitioning menu > No > Continue
+
 Write changes to the disk > Yes > Continue
 ```
 
