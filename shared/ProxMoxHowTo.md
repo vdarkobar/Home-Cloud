@@ -2,9 +2,9 @@
   <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Back</a>
 </p>  
   
-## Use virtio or vmware as virtual grafic card.
+Use virtio or vmware as virtual grafic card.
   
-## Cron expression to update Proxmox every month "At 00:00, on day 1 of the month":
+Cron expression to update Proxmox every month "At 00:00, on day 1 of the month":
 
 ```
 crontab -e
