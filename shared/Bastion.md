@@ -146,14 +146,8 @@ Test:
 sudo sysctl -p
 ```
   
-### Disable root account:
-To disable, you can remove the password of the root account or lock it down, or even do both:  
-  
-Remove the root password:
-```
-sudo passwd -d root
-```
-Lock the account:
+### Lock root account password:
+
 ```
 sudo passwd -l root
 ```
