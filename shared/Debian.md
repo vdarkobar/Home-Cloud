@@ -50,7 +50,7 @@ echo "/swapfile       swap    swap    defaults        0 0" >> /etc/fstab
 ```
 Exit and reboot.
   
-### Update and install packages v01: 
+### Update and install packages: 
 ```
 sudo apt update && \
 sudo apt install -y \
@@ -71,7 +71,7 @@ sudo apt install -y \
   software-properties-common
 ```
   
-### Update and install packages v02 (*Docker, Traefik etc*): 
+### Update and install packages (*use this if planning ti run Docker, Traefik etc*): 
 ```
 sudo apt update && \
 sudo apt install -y \
