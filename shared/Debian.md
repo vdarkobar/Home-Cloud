@@ -241,7 +241,7 @@ sudo sysctl -p
 ```
   
 ### Fix machine-id change:  
-(*cloned VM to have different MAC addresses*)
+*cloned VM will have different MAC addresses)*
 ```bash
 cat /etc/machine-id
 sudo truncate -s 0 /etc/machine-id
@@ -249,13 +249,9 @@ sudo rm /var/lib/dbus/machine-id
 sudo ln -s /etc/machine-id /var/lib/dbus/machine-id
 ls -l /var/lib/dbus/machine-id
 ```
-### Option to disable root account:
-To disable, you can remove the password of the root account or lock it down, or even do both:
-Remove the root password:             << use this one, lock the root account after cloning VM
-```bash
-sudo passwd -d root
-```
-Lock the account:
+  
+### Option to disable root account password:
+Lock the account password:
 ```bash
 sudo passwd -l root
 ```
