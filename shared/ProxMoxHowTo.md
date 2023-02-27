@@ -5,6 +5,10 @@
 ## Use virtio or vmware as virtual grafic card.
   
 ## Cron expression to update Proxmox every month "At 00:00, on day 1 of the month":
+
+```
+crontab -e
+```
 ```
 0 0 1 * * apt update && apt dist-upgrade -y && reboot
 ```
