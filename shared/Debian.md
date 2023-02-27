@@ -73,7 +73,7 @@ sudo apt install -y \
   software-properties-common
 ```
   
-### Update and install packages  
+### Update and install packages
 *(use this if planning ti run Docker, Traefik etc)*: 
 ```bash
 sudo apt update && \
