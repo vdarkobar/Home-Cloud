@@ -113,7 +113,7 @@ Uncomment:
 ```bash
 Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
 Unattended-Upgrade::Remove-New-Unused-Dependencies "true";
-Unattended-Upgrade::Remove-Unused-Dependencies "false";    <<< change to "true"
+Unattended-Upgrade::Remove-Unused-Dependencies "false";    		# change to "true"
 Unattended-Upgrade::Automatic-Reboot "false";
 Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 ```
