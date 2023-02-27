@@ -128,49 +128,49 @@ PermitRootLogin no
 PasswordAuthentication no
 ChallengeResponseAuthentication no
 UsePAM no
-```	
-  
-### Add line at the end to allow only your username (*more can be added, in line, space separated*):
 ```
+  
+Add line at the end to allow only your username (*more can be added, in line, space separated*):
+```bash
 AllowUsers <username>
 ```
-```
+```bash
 sudo systemctl restart ssh
 ```
   
-If needed, search for the entry **# Port 22**, uncomment and replace 22 with a port number between 49152 and 65535 (Dynamic/private ports): 
+If needed, search for the entry **# Port 22**, uncomment and replace 22 with a port number between 49152 and 65535 *(Dynamic/private ports)*: 
   
 ### Fail2Ban:
-```
+```bash
 systemctl status fail2ban
 sudo fail2ban-client status
 ```
 Configuration:
-```
+```bash
 cd /etc/fail2ban
 sudo cp jail.conf jail.local
 sudo nano jail.local
 ```
 Enabling jails (explicit rule), under jail name add:
-```
+```bash
 enabled = true
 ```
 Change if needed:
-```
+```bash
 [DEFAULT]
 $ bantime =10m
 $ findtime =10m
 $ maxretry=5
 ```
 Uncomment "ignoreip" (*if needed add additional ip's*):
-```	
+```bash
 ignoreip = 127.0.0.1/8 ::1    <<< localhost
-```	
 ```
+```bash
 sudo systemctl restart fail2ban
 ```
 Options:
-```
+```bash
 sudo fail2ban-client set sshd banip <ip>
 sudo fail2ban-client set sshd unbanip <ip>
 ```
@@ -180,47 +180,48 @@ sudo tail /var/log/auth.log
 ```
   
 ### UFW:
-```
+```bash
 sudo ufw limit 22/tcp comment "SSH"
 sudo ufw enable
 ```
 Set defaults, Global blocks:
-```
+```bash
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 ```
-```
+```bash
 sudo ufw reload
 sudo ufw status numbered
 ```
 Check Listening Ports
-```
+```bash
 sudo ss -tupln
 netstat -tunlp
 ```
 Prevent PING:
-```
+```bash
 sudo nano /etc/ufw/before.rules
 ```
 Find and edit section: **# ok icmp codes for INPUT**, add (*as first*) line:
-```
+```bash
 -A ufw-before-input -p icmp --icmp-type echo-request -j DROP
 ```
   
 ### Secure the server:
 Secure Shared Memory:
-```
+```bash
 sudo nano /etc/fstab
-# Copy paste next line, below the text at the very bottom of the file:
-
+```
+Copy paste next line, below the text at the very bottom of the file:
+```bash
 none /run/shm tmpfs defaults,ro 0 0
 ```
 Edit file:
-```
+```bash
 sudo nano /etc/sysctl.conf
 ```
 Uncoment:
-```
+```bash
 	##Spoof protection
 net.ipv4.conf.def......
 net.ipv4.conf.all......
@@ -235,13 +236,13 @@ net.ipv6.conf.all......
 	##log Martians
 net.ipv4.conf.all......
 ```
-```
+```bash
 sudo sysctl -p
 ```
   
 ### Fix machine-id change:  
 (*cloned VM to have different MAC addresses*)
-```
+```bash
 cat /etc/machine-id
 sudo truncate -s 0 /etc/machine-id
 sudo rm /var/lib/dbus/machine-id
@@ -251,20 +252,20 @@ ls -l /var/lib/dbus/machine-id
 ### Option to disable root account:
 To disable, you can remove the password of the root account or lock it down, or even do both:
 Remove the root password:             << use this one, lock the root account after cloning VM
-```
+```bash
 sudo passwd -d root
 ```
 Lock the account:
-```
+```bash
 sudo passwd -l root
 ```
   
 ### Cloud-init:
-```
+```bash
 sudo nano /etc/cloud/cloud.cfg
 ```
 Remove (what you are not using):
-```
+```bash
 # this can be used by upstart jobs for 'start on cloud-config'.
 - snap
 - snap_config  # DEPRECATED- Drop in version 18.2
@@ -286,13 +287,13 @@ cloud_final_modules:
 ```
   
 #### Clear old SSH host keys:
-```
+```bash
 cd /etc/ssh/
 sudo rm ssh_host_*
 ```
   
 #### Poweroff VM to convert to template:
-```
+```bash
 sudo apt clean && sudo apt autoremove && sudo poweroff
 ```
   
@@ -312,7 +313,7 @@ Click
   
 #### Clone template and log in to the VM:
   
-```
+```bash
 sudo rm /etc/ssh/ssh_host_*
 sudo truncate -s 0 /etc/machine-id
 sudo apt clean && sudo apt autoremove && sudo poweroff
