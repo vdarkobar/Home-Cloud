@@ -35,12 +35,12 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@debiantemplate
 ```
   
 Test: SSH to VM:
-```
+```bash
 ssh user@ip
 ```
   
 ### Create *SWAP* file:
-```
+```bash
 sudo -i
 dd if=/dev/zero of=/swapfile bs=1024 count=1536000
 chmod 600 /swapfile
@@ -51,7 +51,7 @@ echo "/swapfile       swap    swap    defaults        0 0" >> /etc/fstab
 Exit and reboot.
   
 ### Update and install packages: 
-```
+```bash
 sudo apt update && \
 sudo apt install -y \
   git \
@@ -72,7 +72,7 @@ sudo apt install -y \
 ```
   
 ### Update and install packages (*use this if planning ti run Docker, Traefik etc*): 
-```
+```bash
 sudo apt update && \
 sudo apt install -y \
   git \
@@ -102,15 +102,15 @@ sudo apt install -y \
 ### Customise *bash* and *tmux*: <i><a href="https://github.com/vdarkobar/dotfiles">profiles</a></i>.  
   
 ### Enable *unattended-upgrades*:
-```
+```bash
 sudo dpkg-reconfigure --priority=low unattended-upgrades
 ```
 Edit file:
-```
+```bash
 sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
 ```
 Uncomment:
-```
+```bash
 Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
 Unattended-Upgrade::Remove-New-Unused-Dependencies "true";
 Unattended-Upgrade::Remove-Unused-Dependencies "false";    <<< change to "true"
@@ -119,11 +119,11 @@ Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 ```
   
 ### Lockdown SSH:
-```
+```bash
 sudo nano /etc/ssh/sshd_config
 ```
 Change values to:
-```
+```bash
 PermitRootLogin no
 PasswordAuthentication no
 ChallengeResponseAuthentication no
