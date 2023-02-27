@@ -153,10 +153,11 @@ sudo passwd -l root
 ```
   
 ### Install *google-authenticator* for Debian/Ubuntu-based systems:  
-Config file: *~/.google_authenticator*  
 ```
 sudo apt install libpam-google-authenticator
 ```
+Config file: *~/.google_authenticator*
+  
 Run command:
 ```
 google-authenticator -d -f -t -r 3 -R 30 -W
