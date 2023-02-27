@@ -172,7 +172,7 @@ Select: *time-based* codes.
 
 ---  
   
-Output >> *QR code + Backup codes*  > use it to setup *google-authenticator app* on your smartphone. Save backup codes.
+Output >> *QR code + Backup codes*  > use it to setup <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&gl=US">Google Authenticator</a> app on your smartphone. Save backup codes.
 
 ---  
   
