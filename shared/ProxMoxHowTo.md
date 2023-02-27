@@ -1,9 +1,7 @@
 <p align="left">
   <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Back</a>
 </p>  
-  
-<a href="https://github.com/Weilbyte/PVEDiscordDark">A dark theme for the Proxmox Web UI</a>.
-    
+ 
 Use virtio or vmware as virtual grafic card.
   
 Cron expression to update Proxmox every month "At 00:00, on day 1 of the month":
@@ -15,6 +13,8 @@ crontab -e
 0 0 1 * * apt update && apt dist-upgrade -y && reboot
 ```
   
+<a href="https://github.com/Weilbyte/PVEDiscordDark">A dark theme for the Proxmox Web UI</a>.
+   
 ## Enable PCIE passthrough, PVE 7.2:
 ```
 nano /etc/kernel/cmdline
