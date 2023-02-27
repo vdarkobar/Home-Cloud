@@ -13,7 +13,7 @@
 *Do not set root password during installation (this way created user will gain sudo privileges).*  
   
 ### Update, install packages and reboot:
-```
+```bash
 sudo apt update && sudo apt upgrade -y && \
 sudo apt install -y \
   ufw \
@@ -29,18 +29,18 @@ sudo apt install -y \
 ```
   
 ### Enable *unattended-upgrades*:
-```
+```bash
 sudo dpkg-reconfigure --priority=low unattended-upgrades
 ```
 Edit file:
-```
+```bash
 sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
 ```
 Uncomment:
-```
+```bash
 Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
 Unattended-Upgrade::Remove-New-Unused-Dependencies "true";
-Unattended-Upgrade::Remove-Unused-Dependencies "false";    <<< change to "true"
+Unattended-Upgrade::Remove-Unused-Dependencies "false";   		 #change to "true"
 Unattended-Upgrade::Automatic-Reboot "false";
 Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 ```
@@ -48,7 +48,7 @@ Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 ### Setup *bash* and *tmux*: <i><a href="https://github.com/vdarkobar/dotfiles">.profiles</a></i>.  
   
 Reboot Server:
-```
+```bash
 sudo reboot
 ```
   
@@ -58,8 +58,7 @@ Edit:
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
-Add line at the end to allow only your username:
-*(replace <username> with those you want to allow, more can be added, in line, space separated)*
+Add line at the end to allow only your username (*more can be added, in line, space separated*):
 ```bash
 AllowUsers <username>
 ```
@@ -68,39 +67,41 @@ sudo systemctl restart ssh
 ```
 
 ### Fail2Ban:
-```
+```bash
 sudo systemctl status fail2ban
 sudo fail2ban-client status
 ```
 Config:
-```
+```bash
 cd /etc/fail2ban
 sudo cp jail.conf jail.local
 sudo nano jail.local
 ```
 Enabling jails (explicit rule), under jail name add:
-```
+```bash
 enabled = true
 ```
 Uncomment "ignoreip", add additional ip's:
-```	
+```bash
 ignoreip = 127.0.0.1/8 ::1    <<< localhost
 ```	
-```
+```bash
 sudo systemctl restart fail2ban
 ```
 Check logs: 
-```
+```bash
 sudo tail /var/log/auth.log
 ```
   
 ### UFW:
-```
+```bash
 sudo ufw limit 22/tcp comment "SSH"
+```
+```bash
 sudo ufw enable
 ```
 Set defaults, Global blocks *(probably already done by default)*:
-```
+```bash
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw reload
