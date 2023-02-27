@@ -84,7 +84,7 @@ enabled = true
 ```
 Uncomment "ignoreip", add additional ip's:
 ```bash
-ignoreip = 127.0.0.1/8 ::1    <<< localhost
+ignoreip = 127.0.0.1/8 ::1    			# localhost
 ```	
 ```bash
 sudo systemctl restart fail2ban
