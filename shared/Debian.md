@@ -8,7 +8,7 @@
 - Install Debian VM (2CPU/2GBRAM/16GBHDD), add SSH Server  
 - Do not set root password during installation *(this way created user will gain sudo privileges)*.  
   
-### For automatic *disk resize* to work, create VM without SWAP Partition during install process:
+### For ProxMox VM disk *Resize* option to work, create VM without SWAP Partition during install process:
 ```bash
 Partition disks > Manual > Continue
 
