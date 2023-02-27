@@ -20,7 +20,7 @@ Finish partitioning and write changes to the disk > Continue
 Return to the partitioning menu > No > Continue
 Write changes to the disk > Yes > Continue
 ```
-- Do not set root password during installation *(this way created user will gain sudo privileges)*.
+- Do not set *root password* during installation *(this way created user will gain sudo privileges)*.
 - Add SSH Server  
   
 ### Login to <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md#bastion">Bastion</a> and copy ID to VM:
