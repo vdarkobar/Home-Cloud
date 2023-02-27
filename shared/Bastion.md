@@ -26,7 +26,6 @@ sudo apt install -y \
   python3-pip \
   qemu-guest-agent \
   unattended-upgrades
-  
 ```
   
 ### Enable *unattended-upgrades*:
@@ -48,23 +47,23 @@ Unattended-Upgrade::Automatic-Reboot-Time "02:00";
   
 ### Setup *bash* and *tmux*: <i><a href="https://github.com/vdarkobar/dotfiles">.profiles</a></i>.  
   
-Reboot Server.
+Reboot Server:
 ```
 sudo reboot
 ```
   
-### SSH:  
+### SSH:
 
 Edit:
-```
+```bash
 sudo nano /etc/ssh/sshd_config
 ```
-Add line at the end *(replace <username> with those you want to allow, more can be added, in line, space separated)*:
-
-```
+Add line at the end to allow only your username:
+*(replace <username> with those you want to allow, more can be added, in line, space separated)*
+```bash
 AllowUsers <username>
 ```
-```
+```bash
 sudo systemctl restart ssh
 ```
 
