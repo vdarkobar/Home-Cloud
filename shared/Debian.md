@@ -283,6 +283,11 @@ cd /etc/ssh/
 sudo rm ssh_host_*
 ```
   
+#### Clear bash shell history
+```bash
+history -c
+```
+  
 #### Poweroff VM to convert to template:
 ```bash
 sudo apt clean && sudo apt autoremove && sudo poweroff
@@ -307,6 +312,7 @@ Click
 ```bash
 sudo rm /etc/ssh/ssh_host_*
 sudo truncate -s 0 /etc/machine-id
+history -c
 sudo apt clean && sudo apt autoremove && sudo poweroff
 ```
   
