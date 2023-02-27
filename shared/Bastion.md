@@ -99,7 +99,7 @@ sudo tail /var/log/auth.log
 sudo ufw limit 22/tcp comment "SSH"
 sudo ufw enable
 ```
-Set defaults, Global blocks:
+Set defaults, Global blocks *(probably already done by default)*:
 ```
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
