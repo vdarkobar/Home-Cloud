@@ -2,6 +2,8 @@
   <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md">Back</a>
 </p>  
   
+<a href="https://github.com/Weilbyte/PVEDiscordDark">A dark theme for the Proxmox Web UI</a>.
+    
 Use virtio or vmware as virtual grafic card.
   
 Cron expression to update Proxmox every month "At 00:00, on day 1 of the month":
@@ -260,9 +262,6 @@ Memory			Memory			8192 (adjust to your liking)
 Network			Model			VirtIO (paravirtualized)
 ```
   
-<a href="https://github.com/Weilbyte/PVEDiscordDark">A dark theme for the Proxmox Web UI</a>.
-  
-
 <!--- Commented out
 >>> After PVE version 6.2-12
 
