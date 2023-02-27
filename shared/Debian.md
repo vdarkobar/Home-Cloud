@@ -74,7 +74,7 @@ sudo apt install -y \
 ```
   
 ### Update and install packages
-*(use this if planning to run Docker, Traefik etc)*: 
+*(use this if building template to run Docker)*: 
 ```bash
 sudo apt update && \
 sudo apt install -y \
