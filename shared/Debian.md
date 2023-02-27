@@ -5,32 +5,24 @@
 # Debian
 ## Proxmox Debian Template
   
-- Install Debian VM (2CPU/2GBRAM/16GBHDD), add SSH Server  
-- Do not set root password during installation *(this way created user will gain sudo privileges)*.  
-  
-### VM disk *Resize*:
-For ProxMox VM disk *Resize* option to work, create VM without SWAP Partition during install process  
+- Create ProxMox VM (2CPU/2GBRAM/16GBHDD)
+- For ProxMox VM disk *Resize* option to work, create VM without SWAP Partition during install process  
 *(VM > Hardware > Hard Disk > Disk Action > Resize)*
 ```bash
 Partition disks > Manual > Continue
-
 Select disk > SCSI3 QEMU HARDDISK > Continue
-
 Create new empty Partition > Yes > Continue
-
 New Partition Size > Continue
-
 Primary > Continue
-
 Bootable Flag > On > Done setting up the Partition > Continue
-
 Finish partitioning and write changes to the disk > Continue
-
 Return to the partitioning menu > No > Continue
-
 Write changes to the disk > Yes > Continue
 ```
-
+- Start Debian installation
+- Do not set root password during installation *(this way created user will gain sudo privileges)*.
+- Add SSH Server  
+  
 ### Login to <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md#bastion">Bastion</a> and copy ID to VM:
 ```bash
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@debiantemplate
