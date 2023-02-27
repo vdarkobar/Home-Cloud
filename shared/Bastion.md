@@ -61,7 +61,7 @@ sudo nano /etc/ssh/sshd_config
 ```	    
 Add line at the end:
 ```
-AllowUsers <username>					# replace <username> with those you want to allow
+AllowUsers <username>					# replace <username> with those you want to allow, more can be added, in line, space separated
 ```
 ```
 sudo systemctl restart ssh
