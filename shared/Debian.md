@@ -217,7 +217,7 @@ sudo nano /etc/sysctl.conf
 ```
 Uncoment:
 ```bash
-	##Spoof protection
+	##prevent some spoofing attacks
 net.ipv4.conf.def......
 net.ipv4.conf.all......
 	##ICMP redirects MITM attacks
