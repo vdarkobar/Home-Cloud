@@ -30,7 +30,7 @@ Write changes to the disk > Yes > Continue
 ```
 
 ### Login to <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md#bastion">Bastion</a> and copy ID to VM:
-```
+```bash
 ssh-copy-id -i ~/.ssh/id_ed25519.pub user@ip
 ```
   
