@@ -94,7 +94,7 @@ sudo apt install -y \
   software-properties-common
 ```
   
-### Customise *bash* and *tmux*: <i><a href="https://github.com/vdarkobar/dotfiles">profiles</a></i>.  
+### Follow these <a href="https://github.com/vdarkobar/dotfiles">steps</a> to setup *bash* and <a href="https://github.com/tmux/tmux/wiki">tmux</a>.  
   
 ### Enable *unattended-upgrades*:
 ```bash
