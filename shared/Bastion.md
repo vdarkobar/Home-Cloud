@@ -9,7 +9,7 @@
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/bastion.webp">
 </p>
   
-*Create <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">Proxmox</a> VM: (1CPU/1GBRAM/16GBHDD) using Debian add SSH Server.*  
+*Create <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">Proxmox</a> VM: (1CPU/1GBRAM/16GBHDD) using <a href="https://www.debian.org/">Debian</a> add SSH Server during installation.*  
 *Do not set root password during installation (created user will have sudo privileges).*  
   
 ### Update, install packages and reboot:
