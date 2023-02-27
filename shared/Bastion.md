@@ -190,8 +190,7 @@ Add at the end:
 ```bash
 auth required pam_google_authenticator.so nullok
 ```
-Tell SSH to require the use of 2-factor auth. 
-Edit the */etc/ssh/sshd_config* file to allow the use of *PAM* for credentials:  
+Tell SSH to require the use of *2-factor auth*. Edit the */etc/ssh/sshd_config* file to allow the use of *PAM* for credentials:  
 ```bash
 sudo nano /etc/ssh/sshd_config
 ```
