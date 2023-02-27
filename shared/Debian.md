@@ -130,7 +130,7 @@ ChallengeResponseAuthentication no
 UsePAM no
 ```	
   
-Add line at the end to allow only your username (*more can be added, in line, space separated*):
+### Add line at the end to allow only your username (*more can be added, in line, space separated*):
 ```
 AllowUsers <username>
 ```
