@@ -11,17 +11,6 @@
 <i>using <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a> to run: 
 </p>  
   
-<p align="center">
-  <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a> <a href="https://nginxproxymanager.com/">*</a> |  
-  <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> <a href="https://github.com/dani-garcia/vaultwarden">*</a> |  
-  <a href="https://github.com/vdarkobar/Matrix">Matrix</a> <a href="https://matrix.org/">*</a> |  
-  <a href="https://github.com/vdarkobar/NC">NextCloud</a> <a href="https://nextcloud.com/">*</a> |  
-  <a href="https://github.com/vdarkobar/WP">WordPress</a> <a href="https://wordpress.com/">*</a> |  
-  <a href="https://github.com/vdarkobar/Calibre-web">Calibre-web</a> <a href="https://github.com/janeczku/calibre-web">*</a> |  
-  <a href="https://github.com/vdarkobar/Authelia">Authelia</a> <a href="https://www.authelia.com/">*</a>  
-  <br><br>
-</p>  
-  
 ---  
   
 ## Steps:
@@ -77,4 +66,15 @@ Firewall Settings:
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">all set to add Services</a>
 </p>
   
+<p align="center">
+  <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> <a href="https://github.com/dani-garcia/vaultwarden">*</a> |  
+  <a href="https://github.com/vdarkobar/Matrix">Matrix</a> <a href="https://matrix.org/">*</a> |  
+  <a href="https://github.com/vdarkobar/NC">NextCloud</a> <a href="https://nextcloud.com/">*</a> |  
+  <a href="https://github.com/vdarkobar/WP">WordPress</a> <a href="https://wordpress.com/">*</a> |  
+  <a href="https://github.com/vdarkobar/Calibre-web">Calibre-web</a> <a href="https://github.com/janeczku/calibre-web">*</a> |  
+  <a href="https://github.com/vdarkobar/Authelia">Authelia</a> <a href="https://www.authelia.com/">*</a>  
+  <br><br>
+</p>  
+
+
 ---  
