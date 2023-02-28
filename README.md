@@ -68,16 +68,20 @@ Firewall Settings:
       align="center"
 </p>
 
-<body>
+<p>
     <img src=
 "https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
         alt="testR"
         align="right">
     <img src=
 "https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
+        alt="testC"
+        align="center">
+    <img src=
+"https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
         alt="testL"
         align="left">
-</body>
+</p>
 
 
   
