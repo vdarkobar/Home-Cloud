@@ -63,7 +63,7 @@ Firewall Settings:
   
   
 <p align="center">
-<a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">all set to add Services</a>
+<a all set to add Services</a>
 </p>
   
 <p align="center">
