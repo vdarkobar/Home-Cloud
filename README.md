@@ -61,11 +61,11 @@ Firewall Settings:
 
 <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a> <a href="https://nginxproxymanager.com/">*</a>  
   
-<p align="center">
+<p align="left">
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png">
 </p>
   
-<p align="left">
+<p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">all set to add Services</a>
 </p>
   
