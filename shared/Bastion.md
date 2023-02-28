@@ -89,6 +89,11 @@ ignoreip = 127.0.0.1/8 ::1    			# localhost
 ```bash
 sudo systemctl restart fail2ban
 ```
+Options:
+```bash
+sudo fail2ban-client set sshd banip <ip>
+sudo fail2ban-client set sshd unbanip <ip>
+```
 Check logs: 
 ```bash
 sudo tail /var/log/auth.log
