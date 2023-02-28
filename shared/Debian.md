@@ -44,39 +44,18 @@ echo "/swapfile       swap    swap    defaults        0 0" >> /etc/fstab
 ```
 Exit and reboot.
   
-### Update and install packages: 
+### Update and install packages:
+
 ```bash
 sudo apt update && \
 sudo apt install -y \
-  git \
-  ufw \
-  wget \
-  curl \
-  tmux \
-  gnupg2 \
-  argon2 \
-  fail2ban \
-  cloud-init \
-  bash-completion \
-  fonts-powerline \
-  qemu-guest-agent \
-  unattended-upgrades \
-  cloud-initramfs-growroot \
-  software-properties-common
-```
-  
-### Update and install packages
-*(use this if building template to run Docker)*: 
-```bash
-sudo apt update && \
-sudo apt install -y \
+  ufw \  
   git \
   gpg \
-  ufw \
   wget \
   curl \
   tmux \
-  gnupg2 \
+  gpg2 \
   argon2 \
   fail2ban \
   cloud-init \
