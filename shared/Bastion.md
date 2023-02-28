@@ -134,7 +134,7 @@ api:
     credentials_path: /etc/crowdsec/local_api_credentials.yaml
   server:
     log_level: info
-    listen_uri: 127.0.0.1:8080			# edit Port number
+    listen_uri: 127.0.0.1:8080				# edit Port number
 ...
 prometheus:
   enabled: true
