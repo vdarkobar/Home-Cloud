@@ -39,7 +39,7 @@ Test:
 sudo docker --version && docker compose version
 ```
 ```bash
-systemctl status docker containerd
+sudo systemctl status docker containerd
 ```
 ```bash
 sudo systemctl is-enabled docker && \
