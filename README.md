@@ -58,32 +58,13 @@ Firewall Settings:
 </pre>
   
 - Choose a Reverse Proxy
-
-<a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a> <a href="https://nginxproxymanager.com/">*</a>  
+  
   
 <p>
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png">
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"> <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a>
       align="left"
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png">
-      align="center"
 </p>
-
-<body>
-    <img src=
-"https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
-        alt="testR"
-        align="right">
-    <img src=
-"https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
-        alt="testC"
-        align="justify">
-    <img src=
-"https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
-        alt="testL"
-        align="left">
-</body>
-
-
+  
   
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">all set to add Services</a>
