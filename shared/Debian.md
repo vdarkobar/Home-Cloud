@@ -408,7 +408,7 @@ history -c
 sudo apt clean && sudo apt autoremove && sudo poweroff
 ```
   
-Add CloudInit drive to VM:  
+__Add CloudInit drive to VM:__  
   
 *VM > Hardware > Add > Cloudinit drive*  
   
