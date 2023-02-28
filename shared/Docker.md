@@ -27,7 +27,6 @@ echo \
 ```
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-sudo docker --version && docker compose version
 ```
 ```
 sudo docker --version && docker compose version
