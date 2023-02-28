@@ -8,7 +8,7 @@
 </p>
   
 <p align="center">
-<i>using <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a>, <a href="https://www.docker.com/">Docker</a> and <a href="https://dash.cloudflare.com/">CloudFlare</a>  
+<i>using <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a>, <a href="https://www.docker.com/">Docker</a> and <a href="https://cloudflare.com/">CloudFlare</a>  
 </p>  
   
 ---  
