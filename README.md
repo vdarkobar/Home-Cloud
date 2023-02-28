@@ -64,7 +64,7 @@ Firewall Settings:
 ---  
   
 <p align="center">
-  all set to add Services
+  All set to add Services
 </p>
   
   
