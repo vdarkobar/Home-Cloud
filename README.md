@@ -76,7 +76,7 @@ Firewall Settings:
     <img src=
 "https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
         alt="testC"
-        align="center">
+        align="justify">
     <img src=
 "https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
         alt="testL"
