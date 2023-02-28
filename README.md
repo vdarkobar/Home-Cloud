@@ -22,8 +22,6 @@
   <br><br>
 </p>  
   
-with added security of **no open *Ports*** in your *Firewall*, also fixing problems caused by **Double NAT** scenarios!
-  
 ---  
   
 ## Steps:
@@ -59,12 +57,6 @@ Firewall Settings:
   Browser Integrity Check: ON  
 </pre>
   
-- Using <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Cloudflare%20Argo%20Tunnel.md">Cloudflare Argo Tunnel</a>
-  <br><br>
-  
-<p align="center">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/argo.webp">
-</p>
   
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">all set to add Services</a>
