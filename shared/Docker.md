@@ -37,9 +37,14 @@ sudo apt install -y \
 sudo docker --version && docker compose version
 ```
 ```bash
-sudo systemctl enable docker.service
+systemctl status docker containerd
 ```
 ```bash
+sudo systemctl is-enabled docker && \
+sudo systemctl is-enabled containerd
+```
+```bash
+sudo systemctl enable docker.service && \
 sudo systemctl enable containerd.service
 ```
 Test:
