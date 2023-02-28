@@ -429,9 +429,7 @@ history -c
 sudo apt clean && sudo apt autoremove && sudo poweroff
 ```
   
-VM > Cloudinit    
-Click  
-- *Regenerate Image* 
+VM > Cloudinit > *Regenerate Image* 
   
 #### Convert VM to Template. 
   
