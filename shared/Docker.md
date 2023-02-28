@@ -7,7 +7,7 @@
   
 --- 
   
-Add free space to Cloned VM: *VM > Hardware > Hard Disk > Resize disk*  
+Add free space to cloned VM: *VM Name > Hardware > Hard Disk > Disk Action > Resize*  
 
 --- 
   
