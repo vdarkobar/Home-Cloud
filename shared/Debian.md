@@ -370,13 +370,14 @@ sudo nano /etc/cloud/cloud.cfg
 ```
 Remove (what you are not using):
 ```bash
+...
 # this can be used by upstart jobs for 'start on cloud-config'.
 - snap
 - snap_config  # DEPRECATED- Drop in version 18.2
 - ubuntu-advantage
 - disable-ec2-metadata
 - byobu
-
+...
 #The modules that run in the 'final' stage
 cloud_final_modules:
  - snappy  # DEPRECATED- Drop in version 18.2
@@ -388,6 +389,7 @@ cloud_final_modules:
  - mcollective
  - salt-minion
  - rightscale_userdata
+ ...
 ```
   
 #### Clear old SSH host keys:
