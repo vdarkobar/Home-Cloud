@@ -33,6 +33,8 @@ sudo apt install -y \
   containerd.io \
   docker-compose-plugin
 ```
+  
+Test:
 ```bash
 sudo docker --version && docker compose version
 ```
@@ -47,10 +49,10 @@ sudo systemctl is-enabled containerd
 sudo systemctl enable docker.service && \
 sudo systemctl enable containerd.service
 ```
-Test:
 ```bash
 sudo docker run hello-world
 ```
+  
 ### Securing Docker:  
 
 <p align="center">
