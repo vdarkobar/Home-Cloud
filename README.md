@@ -76,7 +76,6 @@ Firewall Settings:
   <a href="https://github.com/vdarkobar/Authelia">Authelia</a> <a href="https://www.authelia.com/">*</a>  
   <br><br>
 </p>  
-
-
-<center>Centered text</center>
+  
+  
 ---  
