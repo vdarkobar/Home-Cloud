@@ -67,6 +67,19 @@ Firewall Settings:
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png">
       align="center"
 </p>
+
+
+    <img src=
+"https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
+        alt="testR"
+        align="right">
+    <img src=
+"https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
+        alt="testL"
+        align="left">
+
+
+
   
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">all set to add Services</a>
