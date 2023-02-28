@@ -82,7 +82,7 @@ Edit file:
 ```bash
 sudo nano /etc/apt/apt.conf.d/50unattended-upgrades
 ```
-Uncomment:
+Uncomment/change:
 ```bash
 Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
 Unattended-Upgrade::Remove-New-Unused-Dependencies "true";
