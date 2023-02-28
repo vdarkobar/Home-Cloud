@@ -422,7 +422,7 @@ Convert VM to Template.
   
 ### Create new template from old template:
   
-#### Clone template and log in to the VM:
+#### Clone Template, log in, make changes, run:
   
 ```bash
 sudo rm /etc/ssh/ssh_host_*
@@ -433,6 +433,6 @@ sudo apt clean && sudo apt autoremove && sudo poweroff
   
 > *VM > Cloudinit > Regenerate Image* 
   
-#### Convert VM to Template. 
+> *VM > Convert to template*  
   
 <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md#debian">top of the page</a>
