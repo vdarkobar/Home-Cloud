@@ -68,6 +68,10 @@ Firewall Settings:
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/traefik-logo.webp"> <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a>
 </p>
   
+<p align="left">
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/cloudflare-zero-trust.webp"> <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a>
+</p>
+  
   
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">all set to add Services</a>
