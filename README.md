@@ -57,6 +57,9 @@ Firewall Settings:
   Browser Integrity Check: ON  
 </pre>
   
+- Choose a Reverse Proxy
+
+<a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a> <a href="https://nginxproxymanager.com/">*</a>  
   
 <p align="center">
 <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">all set to add Services</a>
