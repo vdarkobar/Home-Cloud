@@ -61,6 +61,7 @@ Firewall Settings:
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/cloudflare-zero-trust.webp"> <a href="https://github.com/vdarkobar/NPM">Cloudflare Zero Trust</a>
 </p>
   
+---  
   
 <p align="center">
   all set to add Services
