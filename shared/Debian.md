@@ -408,17 +408,17 @@ history -c
 sudo apt clean && sudo apt autoremove && sudo poweroff
 ```
   
-#### Add cloud-init drive to VM: 
+Add CloudInit drive to VM:  
   
-- *VM > Hardware > Add > Cloudinit drive*  
-Add login data to Cloudinit drive  
-VM > Cloudinit  
-- *Add: username and password, public key*  
-Click  
-- *Regenerate Image*  
+VM > Hardware > Add > Cloudinit drive  
   
-#### Convert VM to Template.  
+Add login details to Cloudinit drive:  
   
+VM > Cloudinit > Add: User, Password, SSH public key > Regenerate Image  
+  
+Convert VM to Template.  
+  
+VM > Convert to template  
   
 ### Create new template from old template:
   
