@@ -68,7 +68,7 @@ Firewall Settings:
       align="center"
 </p>
 
-<p>
+<body>
     <img src=
 "https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
         alt="testR"
@@ -81,7 +81,7 @@ Firewall Settings:
 "https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png"
         alt="testL"
         align="left">
-</p>
+</body>
 
 
   
