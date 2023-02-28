@@ -65,11 +65,11 @@ Firewall Settings:
 </p>
   
 <p align="left">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/traefik-logo.webp"> <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a>
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/traefik-logo.webp"> <a href="https://github.com/vdarkobar/NPM">Traefik</a>
 </p>
   
 <p align="left">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/cloudflare-zero-trust.webp"> <a href="https://github.com/vdarkobar/NPM">NginxProxyManager</a>
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/cloudflare-zero-trust.webp"> <a href="https://github.com/vdarkobar/NPM">Cloudflare Zero Trust Tunnel</a>
 </p>
   
   
