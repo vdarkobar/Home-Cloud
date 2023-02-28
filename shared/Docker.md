@@ -32,7 +32,7 @@ sudo apt install -y \
   docker-compose-plugin
 ```
   
-Test:
+### Test:
 ```bash
 sudo docker --version && docker compose version
 ```
@@ -54,7 +54,7 @@ sudo docker run hello-world
 sudo docker run --name mynginx1 -p 80:80 -d nginx 
 ```
   
-#### *Securing Docker:*  
+### *Securing Docker:*  
 
 <p align="center">
   <b>Do not add user to docker group (sudo usermod -aG docker $USER && logout).</b><br>
