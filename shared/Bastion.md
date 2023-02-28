@@ -66,7 +66,9 @@ AllowUsers <username>
 ```bash
 sudo systemctl restart ssh
 ```
-
+  
+If needed, search for the entry **# Port 22**, uncomment and replace 22 with a port number between 49152 and 65535 *(Dynamic/private ports)*: 
+  
 ### Fail2Ban:
 ```bash
 sudo systemctl status fail2ban
