@@ -77,5 +77,6 @@ Firewall Settings:
   <br><br>
 </p>  
 
-  
+
+<center>Centered text</center>
 ---  
