@@ -2,16 +2,13 @@
   <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">Home</a>
 </p>   
   
-# Docker
-## *Install Docker and Docker compose*
   
---- 
+---  
   
 ### Add free space to cloned VM:  
 > *VM Name > Hardware > Hard Disk > Disk Action > Resize*  
   
-  
-### Docker:
+### Install Docker and Docker compose
 ```bash
 sudo mkdir -p /etc/apt/keyrings
 ```
