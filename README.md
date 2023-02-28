@@ -46,7 +46,7 @@ Firewall Settings:
   Browser Integrity Check: ON  
 </pre>
   
-- Choose a Reverse Proxy
+### Choose a Reverse Proxy
   
   
 <p align="left">
