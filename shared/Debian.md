@@ -94,7 +94,7 @@ sudo apt install -y \
   software-properties-common
 ```
   
-### Follow these <a href="https://github.com/vdarkobar/dotfiles">steps</a> to setup *bash* and <a href="https://github.com/tmux/tmux/wiki">tmux</a> *dotfiles*.  
+### Follow <a href="https://github.com/vdarkobar/dotfiles">these steps</a> to setup *bash* and <a href="https://github.com/tmux/tmux/wiki">tmux</a> *dotfiles*.  
   
 ### Enable *unattended-upgrades*:
 ```bash
