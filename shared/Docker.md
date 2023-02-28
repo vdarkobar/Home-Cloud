@@ -53,7 +53,7 @@ sudo systemctl enable containerd.service
 sudo docker run hello-world
 ```
 ```bash
-docker run --name mynginx1 -p 80:80 -d nginx 
+sudo docker run --name mynginx1 -p 80:80 -d nginx 
 ```
   
 #### *Securing Docker:*  
