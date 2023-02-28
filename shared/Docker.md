@@ -7,9 +7,8 @@
   
 --- 
   
-Add free space to cloned VM: *VM Name > Hardware > Hard Disk > Disk Action > Resize*  
-
---- 
+> Add free space to cloned VM: *VM Name > Hardware > Hard Disk > Disk Action > Resize*  
+  
   
 ### Docker:
 ```bash
