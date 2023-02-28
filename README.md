@@ -8,7 +8,7 @@
 </p>
   
 <p align="center">
-<i>using <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a> to run: 
+<i>using <a href="https://www.proxmox.com/">Proxmox</a>, <a href="https://www.debian.org/">Debian</a> and <a href="https://www.docker.com/">Docker</a>: 
 </p>  
   
 ---  
