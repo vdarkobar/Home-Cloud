@@ -51,11 +51,10 @@ sudo apt update && \
 sudo apt install -y \
   ufw \  
   git \
-  gpg \
   wget \
   curl \
   tmux \
-  gpg2 \
+  gnupg2 \
   argon2 \
   fail2ban \
   cloud-init \
