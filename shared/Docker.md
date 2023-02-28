@@ -56,7 +56,7 @@ sudo docker run hello-world
 docker run --name mynginx1 -p 80:80 -d nginx 
 ```
   
-### Securing Docker:  
+#### *Securing Docker:*  
 
 <p align="center">
   <b>Do not add user to docker group (sudo usermod -aG docker $USER && logout).</b><br>
