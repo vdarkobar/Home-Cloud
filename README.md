@@ -64,6 +64,8 @@ Firewall Settings:
 <p>
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png">
       align="left"
+    <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.png">
+      align="center"
 </p>
   
 <p align="center">
