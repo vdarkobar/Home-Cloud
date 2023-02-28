@@ -52,6 +52,9 @@ sudo systemctl enable containerd.service
 ```bash
 sudo docker run hello-world
 ```
+```bash
+docker run --name mynginx1 -p 80:80 -d nginx 
+```
   
 ### Securing Docker:  
 
@@ -65,9 +68,4 @@ sudo docker run hello-world
 sudo nano /etc/default/docker
 #
 DOCKER_OPTS="--iptables=false"  
-```
-  
-### Test:
-```
-docker run --name mynginx1 -p 80:80 -d nginx 
 ```
