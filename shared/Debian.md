@@ -239,9 +239,9 @@ cscli update
 cscli upgrade
 ```
   
-Directories:
-The application lives in the folder \etc\crowdsec
-The data is stored in the folder \lib\crowdsec\data
+Directories:  
+The application lives in the folder \etc\crowdsec  
+The data is stored in the folder \lib\crowdsec\data  
   
 check:
 ```bash
