@@ -54,11 +54,11 @@ Firewall Settings:
 </p>
   
 <p align="left">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/traefik-logo.webp"> <a href="https://github.com/vdarkobar/NPM">Traefik</a>
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/traefik-logo.webp"> <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/README.md#choose-a-reverse-proxy">Traefik</a>
 </p>
   
 <p align="left">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/cloudflare-zero-trust.webp"> <a href="https://github.com/vdarkobar/NPM">Cloudflare Zero Trust</a>
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/cloudflare-zero-trust.webp"> <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/README.md#choose-a-reverse-proxy">Cloudflare Zero Trust</a>
 </p>
   
 ---  
