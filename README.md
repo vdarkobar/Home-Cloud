@@ -17,7 +17,7 @@
   
 - Install and Configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">Proxmox VE</a> <a href="https://www.proxmox.com/">*</a>
   <br><br>
-- Create and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md#bastion">Bastion Server</a>
+- Create and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md#bastion">Bastion Server</a> <a href="https://www.debian.org/">*</a>
   <br><br>
 - Create and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server Template</a>
   <br><br>
