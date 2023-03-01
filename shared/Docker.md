@@ -56,15 +56,16 @@ sudo docker run --name mynginx1 -p 80:80 -d nginx
   
 ### *Securing Docker:*  
 
-<p align="center">
+<p align="left">
   <b>Do not add user to docker group (sudo usermod -aG docker $USER && logout).</b><br>
   <b>Do not mess with the ownership of Docker Socket (/var/run/docker.sock in Linux)</b><br>
   <b>Change DOCKER_OPTS to Respect IP Table Firewall. Add the following line:</b><br>
 </p>
-
+edit:
 ```bash
 sudo nano /etc/default/docker
 ```
+add:
 ```bash
 DOCKER_OPTS="--iptables=false"  
 ```
