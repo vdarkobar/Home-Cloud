@@ -62,8 +62,9 @@ sudo docker run --name mynginx1 -p 80:80 -d nginx
   <b>Change DOCKER_OPTS to Respect IP Table Firewall. Add the following line:</b><br>
 </p>
 
-```
+```bash
 sudo nano /etc/default/docker
-#
+```
+```bash
 DOCKER_OPTS="--iptables=false"  
 ```
