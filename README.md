@@ -19,7 +19,7 @@
   <br><br>
 - Create and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md#bastion">Bastion Server</a>
   <br><br>
-- Create and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server Template</a>
+- Create and configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md#debian">Debian Server Template</a>
   <br><br>
 - Clone <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Debian.md">Debian Server Template</a> and install <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Docker.md">Docker</a> <a href="https://www.docker.com/">*</a>
   <br><br>
