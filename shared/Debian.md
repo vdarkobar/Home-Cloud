@@ -49,7 +49,7 @@ Exit and reboot.
 ```bash
 sudo apt update && \
 sudo apt install -y \
-  ufw \  
+  ufw \
   git \
   wget \
   curl \
