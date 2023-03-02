@@ -111,8 +111,8 @@ AllowUsers <username>
 sudo systemctl restart ssh
 ```
   
-If needed, search for the entry **# Port 22**, uncomment and replace 22 with a port number between 49152 and 65535 *(Dynamic/private ports)*.  
-Adjust, if changed, in UFW configuration section.
+> If needed, search for the entry **# Port 22**, uncomment and replace 22 with a port number between 49152 and 65535 *(Dynamic/private ports)*.  
+> Adjust, if changed, in UFW configuration section.
   
   
 ### Fail2Ban:
