@@ -35,12 +35,16 @@ ssh user@ip
   
 ### Create *SWAP* file:
 ```bash
-sudo -i
-dd if=/dev/zero of=/swapfile bs=1024 count=1536000
-chmod 600 /swapfile
-mkswap /swapfile
-swapon /swapfile
-echo "/swapfile       swap    swap    defaults        0 0" >> /etc/fstab
+  # Create empty file
+  sudo fallocate -l 2G /swapfile 
+  # Set permissions
+  sudo chmod 600 /swapfile
+  # Set up swap area
+  sudo mkswap /swapfile
+  # Activate swap area
+  sudo swapon /swapfile
+  # Add entry to /etc/fstab to make swap permanent
+  echo '/swapfile   none    swap    sw    0   0' | sudo tee -a /etc/fstab
 ```
 Exit and reboot.
   
