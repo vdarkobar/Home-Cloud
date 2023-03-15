@@ -265,8 +265,7 @@ cloud_final_modules:
   
 #### Clear old SSH host keys:
 ```bash
-cd /etc/ssh/
-sudo rm ssh_host_*
+sudo rm /etc/ssh/ssh_host_*
 ```
   
 #### Clear bash shell history
