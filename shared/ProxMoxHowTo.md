@@ -12,6 +12,18 @@ crontab -e
 ```
 0 0 1 * * apt update && apt dist-upgrade -y && reboot
 ```
+
+Upgrade from 7 to 8
+
+```
+sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list
+```
+```
+apt update && apt dist-upgrade
+```
+```
+pveversion
+```
   
 <a href="https://github.com/Weilbyte/PVEDiscordDark">A dark theme for the Proxmox Web UI</a>.
    
