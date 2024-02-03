@@ -25,34 +25,43 @@ apt update && apt dist-upgrade
 pveversion
 ```
   
-<a href="https://github.com/Weilbyte/PVEDiscordDark">A dark theme for the Proxmox Web UI</a>.
-   
-## Enable PCIE passthrough, PVE 7.2:
+Enable PCIE passthrough, > PVE 8:
 ```
-nano /etc/kernel/cmdline
-root=ZFS=rpool/ROOT/pve-1 boot=zfs intel_iommu=on	#try this one: root=ZFS=rpool/ROOT/pve-1 boot=zfs quiet intel_iommu=on iommu=pt
-pve-efiboot-tool refresh
-dmesg | grep -e DMAR -e IOMMU -e AMD-Vi
-#If there is no output, then something is wrong.
+nano /etc/default/grub
 ```
-add to the > /etc/modules
+for Intel System: 
 ```
-fio
+GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on"
+```
+for AMD System: 
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet amd_iommu=on"
+```
+```
+update-grub
+```
+```
+nano  /etc/modules
+```
+```
+vfio
+vfio_iommu_type1
 vfio_pci
 vfio_virqfd
 ```
-and run:
 ```
 update-initramfs -u -k all
 ```
-  
-## Install *lshw* to list details of all disks:
 ```
-apt install lshw
-lshw -class disk -class storage
+reboot
 ```
   
-## Use *fdisk* command:
+Figure out the /dev/id-s for the disks. 
+```
+ls /dev/disk/by-id
+```
+
+Use *fdisk* command:
 ```
 fdisk /dev/<disk_id>
 
@@ -62,17 +71,23 @@ Be careful before using the write command.
 
 Command (m for help):		
 ```
+
+
   
-## Add an existing virtual disk to Proxmox
+Raw SSD passthrough to VM
+For every SSD select new SCSI controler (-scsi1, -scsi2...), skip -scsi0 (boot disk):
+```
+qm set {vmid} -scsi1 /dev/disk/by-id/xxx
+qm set {vmid} -scsi2 /dev/disk/by-id/xxx
+```
+Add an existing virtual disk to VM
 ```
 qm rescan
 ```
-## Figure out the /dev/id-s for the disks. The zpool command needs those dev/id-s to know which disks will be in the array.
-## Remove the duplicates with extra characters. These correspond to partitions on the disks.
 ```
-ls /dev/disk/by-id
+qm set {vmid} --scsi0 {pool-name}:{image-name}
 ```
-
+  
 # ZFS
 ## Create ZFS Pool, add Cache
 ```
@@ -80,32 +95,18 @@ zpool create -f -o ashift=12 <pool_name> mirror /dev/disk/by-id/<disk_id> /dev/d
 zpool add -f <pool_name> cache /dev/disk/by-id/<disk_id>
 ```
 ```  
-zpool create -f -o ashift=12 main mirror /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG95030A25480BGN /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG95030BJ6480BGN
+zpool create -f -o ashift=12 main mirror /dev/disk/by-id/xxx /dev/disk/by-id/xxx
 
-zpool add -f main mirror /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG950309WQ480BGN /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG949401VA480BGN
-zpool add -f main mirror /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG95030BHC480BGN /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG950309V8480BGN
-zpool add -f main mirror /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG95030BVV480BGN /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG949401V3480BGN
-zpool add -f main mirror /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG95030A27480BGN /dev/disk/by-id/ata-INTEL_SSDSC2KG480G8_BTYG949402J2480BGN
-zpool add -f main mirror /dev/disk/by-id/ata-Micron_5200_MTFDDAK480TDC_194925432A21 /dev/disk/by-id/ata-Micron_5200_MTFDDAK480TDC_19492543298D
-zpool add -f main mirror /dev/disk/by-id/ata-Micron_5200_MTFDDAK480TDC_19492543298C /dev/disk/by-id/ata-Micron_5200_MTFDDAK480TDC_19492543298B
-
-zpool add -f main cache /dev/disk/by-id/nvme-INTEL_SSDPEKKW128G8_BTHH81850H9L128A
+zpool add -f main mirror /dev/disk/by-id/xxx /dev/disk/by-id/xxx
+zpool add -f main cache /dev/disk/by-id/xxx
 ```
 ```
 zfs set compression=on <pool_name>
 zfs set compression=lz4 <pool_name>
 zpool get feature@lz4_compress <pool_name>
 ```
-
-## Raw SSD passthrough to VM
-### For every SSD select new SCSI controler (-scsi1, -scsi2...), skip -scsi0 (boot disk):
-```
-qm set 900 -scsi1 /dev/disk/by-id/ata-Samsung_SSD_860_EVO_500GB_S3Z2NB0K979151M
-qm set 900 -scsi2 /dev/disk/by-id/ata-Samsung_SSD_860_EVO_500GB_S3Z2NB0KB51373B
-```
   
-# ZFS Commands:
-## zpool
+zpool
 ```
 zpool status
 zpool status -v
@@ -122,7 +123,7 @@ zpool offline <pool_name> <device_name>				#make device offline
 zpool online <pool_name> <device_name>
 ```	
   
-## zfs
+zfs
 ```
 zfs list
 zfs list -v
@@ -136,30 +137,30 @@ zfs destroy <pool_name>
 zfs destroy <pool_name>/<dataset_name>
 ```
   
-## Create new datasets under zfs and mount them to system:
+Create new datasets under zfs and mount them to system:
 ```
 zfs create <pool_name>/<datase_name> -o mountpoint=/mnt/<datase_name>
 ```
   
-## The snapshot entry is stored in the /etc/pve/qemu-server/<vmid>.conf file of your VM, you can delete the entry by hand:
+The snapshot entry is stored in the /etc/pve/qemu-server/<vmid>.conf file of your VM, you can delete the entry by hand:
   
-## Copy/make backup of net-config file:
+Copy/make backup of net-config file:
 ```
-cp /etc/network/interfaces /root/
+cp /etc/network/interfaces /etc/network/interfaces.bak
 ```
   
-## Change network settings without system restart:
+Change network settings without system restart:
 ```
 cp /etc/network/interfaces.new /etc/network/interfaces
 systemctl restart networking.service
 ```
   
-## Show net config:
+Show net config:
 ```
 ip a
 ```
   
-# UPS
+## UPS
 ```	
 apt-get install -y apcupsd apcupsd-cgi
 cp /etc/default/apcupsd /etc/default/apcupsd.bak
