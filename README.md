@@ -66,7 +66,7 @@ Firewall Settings:
   
 <p align="center">
   <a href="https://github.com/vdarkobar/BIND9?tab=readme-ov-file#bind9">BIND9</a> <a href="https://www.isc.org/bind/">*</a> |  
-  <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> <a href="https://github.com/dani-garcia/vaultwarden">*</a> |  
+  <a href="https://github.com/vdarkobar/Vaultwarden?tab=readme-ov-file#vaultwarden">Vaultwarden</a> <a href="https://github.com/dani-garcia/vaultwarden">*</a> |  
   <a href="https://github.com/vdarkobar/Matrix">Matrix</a> <a href="https://matrix.org/">*</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> <a href="https://nextcloud.com/">*</a> |  
   <a href="https://github.com/vdarkobar/WP">WordPress</a> <a href="https://wordpress.com/">*</a> |  
