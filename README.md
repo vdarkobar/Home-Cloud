@@ -64,7 +64,7 @@ Firewall Settings:
 </p>
   
   
-<p align="center">BIND9
+<p align="center">
   <a href="https://github.com/vdarkobar/BIND9?tab=readme-ov-file#bind9">BIND9</a> <a href="https://www.isc.org/bind/">*</a> |  
   <a href="https://github.com/vdarkobar/Vaultwarden">Vaultwarden</a> <a href="https://github.com/dani-garcia/vaultwarden">*</a> |  
   <a href="https://github.com/vdarkobar/Matrix">Matrix</a> <a href="https://matrix.org/">*</a> |  
