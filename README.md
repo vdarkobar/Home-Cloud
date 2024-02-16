@@ -62,7 +62,12 @@ Firewall Settings:
 <p align="center">
   All set to add Services:
 </p>
-  
+
+<p align="center">
+  <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">Unbound</a> <a href="https://nlnetlabs.nl/projects/unbound/about/">*</a> |  
+  <a href="https://github.com/vdarkobar/BIND9?tab=readme-ov-file#bind9">BIND9</a> <a href="https://www.isc.org/bind/">*</a>  
+  <br><br>
+</p> 
   
 <p align="center">
   <a href="https://github.com/vdarkobar/BIND9?tab=readme-ov-file#bind9">BIND9</a> <a href="https://www.isc.org/bind/">*</a> |  
