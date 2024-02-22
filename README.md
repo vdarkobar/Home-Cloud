@@ -65,7 +65,6 @@ Firewall Settings:
 
 <p align="center">
   <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">Unbound</a> |  
-  <a href="https://github.com/vdarkobar/BIND9?tab=readme-ov-file#bind9">BIND9</a> |  
   <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">Samba</a>  
   <br><br>
 </p> 
