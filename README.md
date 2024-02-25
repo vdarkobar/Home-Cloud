@@ -42,21 +42,13 @@ Firewall Settings:
   Browser Integrity Check: ON  
 </pre>
   
-### Choose a Reverse Proxy:
+### Install Reverse Proxy:
   
   
 <p align="left">
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.webp"> <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">NginxProxyManager</a>
 </p>
-  
-<p align="left">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/traefik-logo.webp"> <a ">Traefik</a>
-</p>
-  
-<p align="left">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/cloudflare-zero-trust.webp"> <a ">Cloudflare Zero Trust</a>
-</p>
-  
+    
 ---  
   
 <p align="center">
