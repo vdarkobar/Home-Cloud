@@ -46,14 +46,9 @@ Firewall Settings:
   
   
 <p align="center">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.webp">  
-  <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">NginxProxyManager</a>  
+  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.webp"> <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">NginxProxyManager</a>  
 </p>
   
-<p align="center">
-  <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">NginxProxyManager</a>  
-</p>
-
 ---  
   
 <p align="center">
