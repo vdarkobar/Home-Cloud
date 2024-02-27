@@ -57,7 +57,8 @@ Firewall Settings:
 
 <p align="center">
   <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">Unbound DNS (optional Pi-Hole)</a> |  
-  <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">Samba File Server</a>  
+  <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">Samba File Server</a>  |
+  <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud">Nextcloud</a>  
   <br><br>
 </p> 
   
