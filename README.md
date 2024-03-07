@@ -24,7 +24,7 @@ chmod +x create.sh && \
 rm README.md && \
 ./create.sh
 ```
-- Create and configure <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">more info</a>
+- follow for <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">more info</a>
 
   <br><br>
 - Create and configure <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Debian Server Template</a>
