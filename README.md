@@ -9,9 +9,9 @@
     
 ---  
   
-## Steps:
+### *Install and Configure*:
   
-- Install and Configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">Proxmox Virtual Environment</a>
+- follow for <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">more info</a>
   <br><br>
   
 ### *Bastion / Jump server*:
