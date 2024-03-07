@@ -91,6 +91,16 @@ rm steps.md && \
 - follow for <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">more info</a>
 <br><br>
   
+### *Nginx Proxy Manager*:
+```
+RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read DIR; mkdir -p "$DIR"; \
+cd "$DIR" && git clone https://github.com/vdarkobar/NPM.git . && \
+chmod +x setup.sh && \
+./setup.sh
+```
+- follow for <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">more info</a>  
+<br><br>
+  
 
 ### Install Reverse Proxy:
     
