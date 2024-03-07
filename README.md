@@ -37,7 +37,7 @@ Firewall Settings:
 - follow for <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">more info</a>
 <br><br>
   
-### *Bastion / Jump server VM*:
+### *Bastion / Jump server*:
 ```
 clear
 sudo apt -y install git && \
@@ -50,7 +50,7 @@ rm README.md && \
 - follow for <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">more info</a>
 <br><br>
   
-### *Debian server template VM*:
+### *Debian server template*:
 ```
 clear
 sudo apt -y install git && \
