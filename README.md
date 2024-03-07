@@ -26,10 +26,20 @@ rm README.md && \
 ```
 - follow for <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">more info</a>
 <br><br>
-
-
-- Create and configure <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Debian Server Template</a>
-  <br><br>
+  
+### *Debian server template*:
+```
+clear
+sudo apt -y install git && \
+RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
+cd "$NAME" && git clone https://github.com/vdarkobar/DebianTemplate.git . && \
+chmod +x create.sh && \
+rm README.md && \
+./create.sh
+```
+- follow for <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">more info</a>
+<br><br>
+  
 - Clone <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Template</a> and install <a href="https://github.com/vdarkobar/Docker/blob/main/README.md#docker">Docker/Podman</a>, or create Template with Docker/Podman preinstalled
   <br><br>
 - Create <a href="https://dash.cloudflare.com/sign-up">Cloudflare account</a> or login to <a href="https://dash.cloudflare.com/">CloudFlare</a> and add a website <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">*</a> with the following settings:
