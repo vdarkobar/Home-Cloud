@@ -61,8 +61,22 @@ rm README.md && \
 - follow for <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">more info</a>
 <br><br>
   
-
-
+### *Unbound DNS (optional Pi-Hole) VM*:
+```
+clear
+sudo apt -y install git && \
+RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
+cd "$NAME" && git clone https://github.com/vdarkobar/unbound.git . && \
+chmod +x pihole-install.sh && \
+chmod +x setup.sh && \
+rm config-explained && \
+rm README.md && \
+rm steps.md && \
+./setup.sh
+```
+- follow for <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">more info</a>
+<br><br>
+  
   
 ### Install Reverse Proxy:
   
@@ -78,7 +92,7 @@ rm README.md && \
 </p>
 
 <p align="center">
-  <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">Unbound DNS (optional Pi-Hole)</a> |  
+   |  
   <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">Samba File Server</a>  |
   <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud">Nextcloud</a>  
   <br><br>
