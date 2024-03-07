@@ -11,9 +11,7 @@
 
 Create <a href="https://dash.cloudflare.com/sign-up">Cloudflare account</a> or login to <a href="https://dash.cloudflare.com/">CloudFlare</a> and add a website <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">*</a> with the following settings:
 
----  
-
-<pre>
+```
 SSL/TLS Mode - Full (strict)  
 
 Edge Certificates:  
@@ -30,7 +28,7 @@ Firewall Settings:
   Bot Fight Mode: ON  
   Challenge Passage: 30 Minutes  
   Browser Integrity Check: ON  
-</pre>
+```
 <br><br>
 ### *Install and Configure Proxmox Virtual Environment*:
   
