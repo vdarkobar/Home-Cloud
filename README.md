@@ -133,6 +133,7 @@ chmod +x setup.sh && \
 
 
 <!-- This is commented out. -->  
+[This is a comment that will be hidden.
  <br><br>
   
 <p align="center">
@@ -145,7 +146,7 @@ chmod +x setup.sh && \
   <br><br>
 </p>  
   
----  
+]
   
 <!-- This is commented out. -->
 
