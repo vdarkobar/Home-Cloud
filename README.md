@@ -11,7 +11,7 @@
   
 ## Steps:
   
-- Install and Configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">Proxmox VE</a>
+- Install and Configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">Proxmox Virtual Environment</a>
   <br><br>
 - Create and configure <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">Bastion Server</a>
   <br><br>
