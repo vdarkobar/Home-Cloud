@@ -13,7 +13,19 @@
   
 - Install and Configure <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">Proxmox Virtual Environment</a>
   <br><br>
-- Create and configure <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">Bastion Server</a>
+  
+### *Bastion / Jump server*:
+```
+clear
+sudo apt -y install git && \
+RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
+cd "$NAME" && git clone https://github.com/vdarkobar/Bastion.git . && \
+chmod +x create.sh && \
+rm README.md && \
+./create.sh
+```
+- Create and configure <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">more info</a>
+
   <br><br>
 - Create and configure <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Debian Server Template</a>
   <br><br>
