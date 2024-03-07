@@ -29,7 +29,7 @@ Firewall Settings:
   Challenge Passage: 30 Minutes  
   Browser Integrity Check: ON  
 </pre>
-  
+<br><br>
 ### *Install and Configure Proxmox Virtual Environment*:
   
 - follow for <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">more info</a>
