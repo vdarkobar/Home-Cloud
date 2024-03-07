@@ -133,21 +133,13 @@ chmod +x setup.sh && \
 
 
 <!-- This is commented out. -->  
-[This is a comment that will be hidden.
- <br><br>
-  
-<p align="center">
-   |  
+ 
   <a href="https://github.com/vdarkobar/Matrix">Matrix</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
   <a href="https://github.com/vdarkobar/WP">WordPress</a> |  
   <a href="https://github.com/vdarkobar/Calibre-web">Calibre-web</a> |  
   <a href="https://github.com/vdarkobar/Authelia">Authelia</a>  
-  <br><br>
-</p>  
-  
-]
-  
+
 <!-- This is commented out. -->
 
 <a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-file#self-hosted-home-lab-cloud">top of the page</a>
