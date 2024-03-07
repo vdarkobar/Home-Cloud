@@ -125,8 +125,7 @@ rm README.md && \
   
 
   
- <a href="https://github.com/vdarkobar/Docker/blob/main/README.md#docker">Docker/Podman</a>, or create Template with Docker/Podman preinstalled
-  <br><br>
+ <br><br>
   
 <p align="center">
   <a href="https://github.com/vdarkobar/Vaultwarden?tab=readme-ov-file#vaultwarden">Vaultwarden</a> |  
