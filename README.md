@@ -9,10 +9,10 @@
     
 ---  
   
-### *Install and Configure*:
+### *Install and Configure Proxmox Virtual Environment*:
   
 - follow for <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">more info</a>
-  <br><br>
+<br><br>
   
 ### *Bastion / Jump server*:
 ```
@@ -25,8 +25,9 @@ rm README.md && \
 ./create.sh
 ```
 - follow for <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">more info</a>
+<br><br>
 
-  <br><br>
+
 - Create and configure <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Debian Server Template</a>
   <br><br>
 - Clone <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Template</a> and install <a href="https://github.com/vdarkobar/Docker/blob/main/README.md#docker">Docker/Podman</a>, or create Template with Docker/Podman preinstalled
