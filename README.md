@@ -132,14 +132,14 @@ chmod +x setup.sh && \
 <br><br>
 
 
-<!-- This is commented out. -->  
+<!-- This is commented out.
  
-  <a href="https://github.com/vdarkobar/Matrix">Matrix</a> |  
-  <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
-  <a href="https://github.com/vdarkobar/WP">WordPress</a> |  
-  <a href="https://github.com/vdarkobar/Calibre-web">Calibre-web</a> |  
-  <a href="https://github.com/vdarkobar/Authelia">Authelia</a>  
+  <a href="https://github.com/vdarkobar/Matrix">Matrix</a>
+  <a href="https://github.com/vdarkobar/NC">NextCloud</a>
+  <a href="https://github.com/vdarkobar/WP">WordPress</a>
+  <a href="https://github.com/vdarkobar/Calibre-web">Calibre-web</a>
+  <a href="https://github.com/vdarkobar/Authelia">Authelia</a>
 
-<!-- This is commented out. -->
+This is commented out. -->
 
 <a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-file#self-hosted-home-lab-cloud">top of the page</a>
