@@ -102,12 +102,8 @@ chmod +x setup.sh && \
 <br><br>
   
 
-### Install Reverse Proxy:
-    
-<p align="left">
-  <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.webp"> <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">NginxProxyManager</a>  
-</p>
-  
+
+   
 ---  
   
 <p align="center">
