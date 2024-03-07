@@ -77,7 +77,7 @@ rm steps.md && \
 - follow for <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">more info</a>
 <br><br>
   
-### *Samba file server*:
+### *Samba file server VM*:
 ```
 clear
 sudo apt -y install git && \
