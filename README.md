@@ -40,8 +40,7 @@ rm README.md && \
 - follow for <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">more info</a>
 <br><br>
   
-- Clone <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Template</a> and install <a href="https://github.com/vdarkobar/Docker/blob/main/README.md#docker">Docker/Podman</a>, or create Template with Docker/Podman preinstalled
-  <br><br>
+
 - Create <a href="https://dash.cloudflare.com/sign-up">Cloudflare account</a> or login to <a href="https://dash.cloudflare.com/">CloudFlare</a> and add a website <a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">*</a> with the following settings:
   
 #### Site settings:  
@@ -88,6 +87,9 @@ Firewall Settings:
 <p align="center">
   Docker:
 </p>
+  
+- Clone <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Template</a> and install <a href="https://github.com/vdarkobar/Docker/blob/main/README.md#docker">Docker/Podman</a>, or create Template with Docker/Podman preinstalled
+  <br><br>
   
 <p align="center">
   <a href="https://github.com/vdarkobar/Vaultwarden?tab=readme-ov-file#vaultwarden">Vaultwarden</a> |  
