@@ -105,9 +105,9 @@ cd "$DIR" && git clone https://github.com/vdarkobar/NPM.git . && \
 chmod +x setup.sh && \
 ./setup.sh
 ```
-- follow for <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">more info</a>  
+- follow for <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">more info</a>
 <br><br>
-
+  
 ### *Nextcloud*:
 ```
 clear
