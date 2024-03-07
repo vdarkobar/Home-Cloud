@@ -77,10 +77,23 @@ rm steps.md && \
 - follow for <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">more info</a>
 <br><br>
   
+### *Samba file server*:
+```
+clear
+sudo apt -y install git && \
+RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
+cd "$NAME" && git clone https://github.com/vdarkobar/Samba.git . && \
+chmod +x setup.sh && \
+rm README.md && \
+rm steps.md && \
+./setup.sh
+```
+- follow for <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">more info</a>
+<br><br>
   
+
 ### Install Reverse Proxy:
-  
-  
+    
 <p align="left">
   <img src="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/npm.webp"> <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">NginxProxyManager</a>  
 </p>
@@ -93,7 +106,7 @@ rm steps.md && \
 
 <p align="center">
    |  
-  <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">Samba File Server</a>  |
+    |
   <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud">Nextcloud</a>  
   <br><br>
 </p> 
