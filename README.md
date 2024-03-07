@@ -62,7 +62,11 @@ rm README.md && \
 ```
 - follow for <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">more info</a>
 <br><br>
-  
+
+<p align="center">
+Clone <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Template</a> and install:
+</p>
+
 ### *Unbound DNS (optional Pi-Hole) VM*:
 ```
 clear
@@ -118,11 +122,9 @@ rm README.md && \
   
 
   
-<p align="center">
-  Docker:
-</p>
+
   
-- Clone <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Template</a> and install <a href="https://github.com/vdarkobar/Docker/blob/main/README.md#docker">Docker/Podman</a>, or create Template with Docker/Podman preinstalled
+ <a href="https://github.com/vdarkobar/Docker/blob/main/README.md#docker">Docker/Podman</a>, or create Template with Docker/Podman preinstalled
   <br><br>
   
 <p align="center">
