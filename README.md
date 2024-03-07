@@ -107,7 +107,7 @@ chmod +x setup.sh && \
 ```
 - follow for <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">more info</a>  
 <br><br>
-  
+
 ### *Nextcloud*:
 ```
 clear
