@@ -64,10 +64,10 @@ rm README.md && \
 <br><br>
 
 <p align="center">
-Clone <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Template</a> and install:
+Clone <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Debian template</a> and install services:
 </p>
 
-### *Unbound DNS (optional Pi-Hole) VM*:
+### *Unbound DNS (optional Pi-Hole)*:
 ```
 clear
 sudo apt -y install git && \
@@ -83,7 +83,7 @@ rm steps.md && \
 - follow for <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">more info</a>
 <br><br>
   
-### *Samba file server VM*:
+### *Samba file server*:
 ```
 clear
 sudo apt -y install git && \
@@ -97,7 +97,7 @@ rm steps.md && \
 - follow for <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">more info</a>
 <br><br>
   
-### *Nginx Proxy Manager Docker*:
+### *Nginx Proxy Manager*:
 ```
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read DIR; mkdir -p "$DIR"; \
 cd "$DIR" && git clone https://github.com/vdarkobar/NPM.git . && \
@@ -107,7 +107,7 @@ chmod +x setup.sh && \
 - follow for <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">more info</a>  
 <br><br>
   
-### *Nextcloud VM*:
+### *Nextcloud*:
 ```
 clear
 sudo apt -y install git && \
