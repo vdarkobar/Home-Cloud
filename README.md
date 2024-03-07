@@ -132,7 +132,7 @@ chmod +x setup.sh && \
 <br><br>
 
 
-  
+<!-- This is commented out. -->  
  <br><br>
   
 <p align="center">
@@ -147,5 +147,6 @@ chmod +x setup.sh && \
   
 ---  
   
-  
-<a href="https://github.com/vdarkobar/Home-Cloud/blob/main/README.md#self-hosted-cloud">top of the page</a>
+<!-- This is commented out. -->
+
+<a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-file#self-hosted-home-lab-cloud">top of the page</a>
