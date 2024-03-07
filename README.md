@@ -114,19 +114,9 @@ rm README.md && \
 ./setup.sh
 ```
 - follow for <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud">more info</a>
-   
----  
+<br><br>
   
-<p align="center">
-  All set to add Services:
-</p>
 
-<p align="center">
-   |  
-    |
-    
-  <br><br>
-</p> 
   
 <p align="center">
   Docker:
