@@ -121,14 +121,22 @@ rm README.md && \
 - follow for <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud">more info</a>
 <br><br>
   
+### *Vaultwarden*:
+```bash
+RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
+cd "$NAME" && git clone https://github.com/vdarkobar/Vaultwarden.git . && \
+chmod +x setup.sh && \
+./setup.sh
+```
+- follow for <a href="https://github.com/vdarkobar/Vaultwarden?tab=readme-ov-file#vaultwarden">more info</a>
+<br><br>
 
-  
 
   
  <br><br>
   
 <p align="center">
-  <a href="https://github.com/vdarkobar/Vaultwarden?tab=readme-ov-file#vaultwarden">Vaultwarden</a> |  
+   |  
   <a href="https://github.com/vdarkobar/Matrix">Matrix</a> |  
   <a href="https://github.com/vdarkobar/NC">NextCloud</a> |  
   <a href="https://github.com/vdarkobar/WP">WordPress</a> |  
