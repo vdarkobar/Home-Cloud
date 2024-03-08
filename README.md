@@ -42,7 +42,7 @@ Security:
 <br><br>
   
 ### create *Bastion / Jump server*:
-```
+```bash
 clear
 sudo apt -y install git && \
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
@@ -55,7 +55,7 @@ rm README.md && \
 <br><br>
   
 ### create *Debian server template*:
-```
+```bash
 clear
 sudo apt -y install git && \
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
@@ -73,7 +73,8 @@ Clone <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/README.md#debia
 <br><br>
 
 ### create *Unbound DNS (optional Pi-Hole)*:
-```
+```bash
+clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
 cd "$NAME" && git clone https://github.com/vdarkobar/unbound.git . && \
 chmod +x pihole-install.sh && \
@@ -87,9 +88,8 @@ rm steps.md && \
 <br><br>
   
 ### create *Samba file server*:
-```
+```bash
 clear
-sudo apt -y install git && \
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
 cd "$NAME" && git clone https://github.com/vdarkobar/Samba.git . && \
 chmod +x setup.sh && \
@@ -101,7 +101,8 @@ rm steps.md && \
 <br><br>
   
 ### create *Nginx Proxy Manager*:
-```
+```bash
+clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read DIR; mkdir -p "$DIR"; \
 cd "$DIR" && git clone https://github.com/vdarkobar/NPM.git . && \
 chmod +x setup.sh && \
@@ -111,9 +112,8 @@ chmod +x setup.sh && \
 <br><br>
   
 ### create *Nextcloud*:
-```
+```bash
 clear
-sudo apt -y install git && \
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
 cd "$NAME" && git clone https://github.com/vdarkobar/Nextcloud.git . && \
 chmod +x setup.sh && \
