@@ -12,4 +12,4 @@ Download <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox Virtual Environ
   <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/ProxMoxHowTo.md">ProxMox how-to</a>
 </p>  
 
-Download <a href="https://www.debian.org/index.html">Debian</a> and upload it to *Proxmox ISO Images*.  
+Download <a href="https://www.debian.org/index.html">Debian server</a> and upload it to *Proxmox ISO Images*.  
