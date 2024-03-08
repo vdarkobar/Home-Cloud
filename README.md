@@ -68,7 +68,7 @@ rm README.md && \
 <br><br>
 
 <p align="center">
-Clone <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/README.md#debian-server-template">Debian server template</a>, copy and run commands on the Server to install (one or more) Services:
+Clone <a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-file#create-debian-server-template">Debian server template</a>, copy and run commands on the Server to install (one or more) Services:
 </p>
 <br><br>
 
