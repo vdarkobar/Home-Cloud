@@ -13,3 +13,7 @@ Download <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox Virtual Environ
 </p>  
 
 Download <a href="https://www.debian.org/index.html">Debian server</a> and upload it to *Proxmox ISO Images*.  
+
+> *Create <a href="https://www.debian.org/">Debian server</a> VM: (2CPU/2GBRAM/16GBHDD).  
+> *Do not set root password during installation, this way created user will gain sudo privileges.*   
+> *Add SSH Server during installation.*  
