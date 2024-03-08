@@ -2,7 +2,7 @@
   <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">Home</a>
 </p>  
   
-# Install Proxmox Virtual Environment
+## Proxmox Virtual Environment
   
 Download <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox Virtual Environment</a> and create bootable USB drive using <a href="http://rufus.ie/">Rufus</a>.  
   
