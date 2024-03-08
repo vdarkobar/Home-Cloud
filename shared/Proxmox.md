@@ -2,10 +2,9 @@
   <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">Home</a>
 </p>  
   
-# Proxmox
-## Install Proxmox Virtual Environment
+# Install Proxmox Virtual Environment
   
-Download <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox VE</a> and create bootable USB drive using <a href="http://rufus.ie/">Rufus</a>.  
+Download <a href="https://www.proxmox.com/de/proxmox-ve">Proxmox Virtual Environment</a> and create bootable USB drive using <a href="http://rufus.ie/">Rufus</a>.  
   
 ### *Install and configure Proxmox VE.*  
   
