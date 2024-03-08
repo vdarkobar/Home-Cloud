@@ -37,7 +37,7 @@ Firewall Settings:
 - follow for <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">more info</a>
 <br><br>
   
-### *Bastion / Jump server*:
+### create *Bastion / Jump server*:
 ```
 clear
 sudo apt -y install git && \
@@ -50,7 +50,7 @@ rm README.md && \
 - follow for <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">more info</a>
 <br><br>
   
-### *Debian server template*:
+### create *Debian server template*:
 ```
 clear
 sudo apt -y install git && \
@@ -68,7 +68,7 @@ Clone <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/README.md#debia
 </p>
 <br><br>
 
-### *Unbound DNS (optional Pi-Hole)*:
+### create *Unbound DNS (optional Pi-Hole)*:
 ```
 clear
 sudo apt -y install git && \
@@ -84,7 +84,7 @@ rm steps.md && \
 - follow for <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">more info</a>
 <br><br>
   
-### *Samba file server*:
+### create *Samba file server*:
 ```
 clear
 sudo apt -y install git && \
@@ -98,7 +98,7 @@ rm steps.md && \
 - follow for <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">more info</a>
 <br><br>
   
-### *Nginx Proxy Manager*:
+### create *Nginx Proxy Manager*:
 ```
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read DIR; mkdir -p "$DIR"; \
 cd "$DIR" && git clone https://github.com/vdarkobar/NPM.git . && \
@@ -108,7 +108,7 @@ chmod +x setup.sh && \
 - follow for <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">more info</a>
 <br><br>
   
-### *Nextcloud*:
+### create *Nextcloud*:
 ```
 clear
 sudo apt -y install git && \
@@ -121,7 +121,7 @@ rm README.md && \
 - follow for <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud">more info</a>
 <br><br>
   
-### *Vaultwarden*:
+### create *Vaultwarden*:
 ```bash
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
 cd "$NAME" && git clone https://github.com/vdarkobar/Vaultwarden.git . && \
