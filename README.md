@@ -115,7 +115,7 @@ chmod +x setup.sh && \
 ### create *Nextcloud*:
 ```
 clear
-sudo apt -y install git && \
+sudo apt -y install git
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
 cd "$NAME" && git clone https://github.com/vdarkobar/Nextcloud.git . && \
 chmod +x setup.sh && \
