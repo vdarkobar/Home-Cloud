@@ -137,7 +137,7 @@ cd "$NAME" && git clone https://github.com/vdarkobar/Nextcloud-D.git . && \
 chmod +x setup.sh && \
 ./setup.sh
 ```
-- follow for <a href="https://github.com/vdarkobar/NC/blob/main/README.md#nextcloud">more info</a>
+- follow for <a href="https://github.com/vdarkobar/Nextcloud-D/blob/main/README.md#nextcloud">more info</a>
 <br><br>
 
 ### create *Vaultwarden*:
