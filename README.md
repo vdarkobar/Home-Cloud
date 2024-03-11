@@ -136,6 +136,7 @@ chmod +x setup.sh && \
 
 ### create *Vaultwarden (Docker)*:
 ```bash
+clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
 cd "$NAME" && git clone https://github.com/vdarkobar/Vaultwarden.git . && \
 chmod +x setup.sh && \
