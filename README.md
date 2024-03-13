@@ -89,13 +89,8 @@ rm steps.md && \
   
 ### create *Samba file server*:
 ```bash
-clear
-RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
-cd "$NAME" && git clone https://github.com/vdarkobar/Samba.git . && \
-chmod +x setup.sh && \
-rm README.md && \
-rm steps.md && \
-./setup.sh
+clear && \
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup.sh)"
 ```
 - follow for <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">more info</a>
 <br><br>
