@@ -88,8 +88,13 @@ rm steps.md && \
 <br><br>
   
 ### create *Samba file server*:
-```bash
+*Run on VM*:
+```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup.sh)"
+```
+*Run on CT*:
+```
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup-ct.sh)"
 ```
 - follow for <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">more info</a>
 <br><br>
