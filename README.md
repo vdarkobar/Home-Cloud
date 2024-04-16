@@ -72,7 +72,7 @@ Clone <a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-f
 </p>
 <br><br>
 
-### create *Unbound DNS (optional Pi-Hole)*:
+### *Unbound DNS (with optional Pi-Hole)*:
 ```bash
 clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
