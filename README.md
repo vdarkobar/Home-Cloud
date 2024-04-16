@@ -93,7 +93,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/
 - follow for <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">more info</a>
 <br><br>
   
-### create *Samba file server*:
+### *Samba file server*:
 *VM*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup.sh)"
