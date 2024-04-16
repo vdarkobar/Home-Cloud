@@ -84,6 +84,12 @@ rm README.md && \
 rm steps.md && \
 ./setup.sh
 ```
+
+### *Run on CT*:
+```
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup-ct.sh)"
+```
+
 - follow for <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">more info</a>
 <br><br>
   
