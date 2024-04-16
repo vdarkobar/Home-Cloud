@@ -85,7 +85,7 @@ rm steps.md && \
 ./setup.sh
 ```
 
-### *Run on CT*:
+### *CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup-ct.sh)"
 ```
