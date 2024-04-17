@@ -43,7 +43,7 @@ Security:
 <br><br>
 
 <p align="center">
-Create these two VM's:
+Create two VM's:
 </p>
 <br><br>
 
