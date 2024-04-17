@@ -69,10 +69,10 @@ rm README.md && \
 
 <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template"> * </a>
 <br><br>
-  
+
 ---  
   
-### Clone Debian server template, copy and run *commands* on the to install (one or more) Services:
+### Clone Debian server template, copy and run *commands* the to install *(one or more)* Services:
 <br><br>
 
 
