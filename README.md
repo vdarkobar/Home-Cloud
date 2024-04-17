@@ -41,7 +41,7 @@ Security:
 - follow for <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">more info</a>
 <br><br>
   
-### create *Bastion / Jump server*:
+### *Bastion / Jump server*:
 ```bash
 clear
 sudo apt -y install git && \
@@ -54,7 +54,7 @@ rm README.md && \
 - follow for <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">more info</a>
 <br><br>
   
-### create *Debian server template*:
+### *Debian server template*:
 ```bash
 clear
 sudo apt -y install git && \
@@ -95,10 +95,11 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/se
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup-ct.sh)"
 ```
-follow for <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba"> * </a>
+
+<a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba"> * </a>
 <br><br>
   
-### create *Nginx Proxy Manager*:
+### *Nginx Proxy Manager*:
 ```bash
 clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read DIR; mkdir -p "$DIR"; \
@@ -109,7 +110,7 @@ chmod +x setup.sh && \
 - follow for <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">more info</a>
 <br><br>
   
-### create *Nextcloud*:
+### *Nextcloud*:
 ```bash
 clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
@@ -121,7 +122,7 @@ rm README.md && \
 - follow for <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud">more info</a>
 <br><br>
 
-### create *Nextcloud (Docker)*:
+### *Nextcloud (Docker)*:
 ```bash
 clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
@@ -132,7 +133,7 @@ chmod +x setup.sh && \
 - follow for <a href="https://github.com/vdarkobar/Nextcloud-D/blob/main/README.md#nextcloud">more info</a>
 <br><br>
 
-### create *Vaultwarden (Docker)*:
+### *Vaultwarden (Docker)*:
 ```bash
 clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
