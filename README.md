@@ -83,7 +83,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup-ct.sh)"
 ```
 
-- <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>
+<a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>
 <br><br>
   
 ### *Samba file server*:
@@ -95,7 +95,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/se
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup-ct.sh)"
 ```
-- follow for <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba">more info</a>
+follow for <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba"> * </a>
 <br><br>
   
 ### create *Nginx Proxy Manager*:
