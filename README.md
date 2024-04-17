@@ -37,16 +37,11 @@ Security:
   
 ---  
   
-### *Install and Configure Proxmox Virtual Environment*:
+### *Install and Configure Proxmox Virtual Environment and create two VM's*:
   
 <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>
 <br><br>
-
-<p align="center">
-Create two VM's:
-</p>
-<br><br>
-
+  
 ### *Bastion / Jump server*:
 ```bash
 clear
