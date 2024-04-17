@@ -73,16 +73,9 @@ Clone <a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-f
 <br><br>
 
 ### *Unbound DNS (with optional Pi-Hole)*:
-```bash
-clear
-RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
-cd "$NAME" && git clone https://github.com/vdarkobar/unbound.git . && \
-chmod +x pihole-install.sh && \
-chmod +x setup.sh && \
-rm config-explained && \
-rm README.md && \
-rm steps.md && \
-./setup.sh
+*VM*:
+```
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup.sh)"
 ```
 
 *CT*:
@@ -90,7 +83,7 @@ rm steps.md && \
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup-ct.sh)"
 ```
 
-- follow for <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound">more info</a>
+- * <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"></a>
 <br><br>
   
 ### *Samba file server*:
