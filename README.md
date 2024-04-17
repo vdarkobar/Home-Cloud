@@ -72,7 +72,7 @@ rm README.md && \
   
 ---  
   
-### Clone <a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-file#create-debian-server-template">Debian server template</a>, copy and run commands on the Server to install (one or more) Services:
+### Clone Debian server template, copy and run *commands* on the to install (one or more) Services:
 <br><br>
 
 
