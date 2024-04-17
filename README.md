@@ -66,7 +66,6 @@ chmod +x create.sh && \
 rm README.md && \
 ./create.sh
 ```
-
 <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template"> * </a>
 <br><br>
 
@@ -74,7 +73,6 @@ rm README.md && \
   
 ### Clone Debian server template, copy and run *commands* the to install *(one or more)* Services:
 <br><br>
-
 
 ### *Unbound DNS (with optional Pi-Hole)*:
 *VM*:
