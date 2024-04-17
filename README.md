@@ -38,7 +38,7 @@ Security:
   
 ### *Install and Configure Proxmox Virtual Environment*:
   
-- follow for <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox">more info</a>
+<a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>
 <br><br>
   
 ### *Bastion / Jump server*:
@@ -51,7 +51,8 @@ chmod +x create.sh && \
 rm README.md && \
 ./create.sh
 ```
-- follow for <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion">more info</a>
+
+<a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion"> * </a>
 <br><br>
   
 ### *Debian server template*:
@@ -64,7 +65,8 @@ chmod +x create.sh && \
 rm README.md && \
 ./create.sh
 ```
-- follow for <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">more info</a>
+
+<a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template"> * </a>
 <br><br>
 
 <p align="center">
@@ -107,7 +109,8 @@ cd "$DIR" && git clone https://github.com/vdarkobar/NPM.git . && \
 chmod +x setup.sh && \
 ./setup.sh
 ```
-- follow for <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager">more info</a>
+
+<a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager"> * </a>
 <br><br>
   
 ### *Nextcloud*:
@@ -119,7 +122,8 @@ chmod +x setup.sh && \
 rm README.md && \
 ./setup.sh
 ```
-- follow for <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud">more info</a>
+
+<a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud"> * </a>
 <br><br>
 
 ### *Nextcloud (Docker)*:
@@ -130,7 +134,8 @@ cd "$NAME" && git clone https://github.com/vdarkobar/Nextcloud-D.git . && \
 chmod +x setup.sh && \
 ./setup.sh
 ```
-- follow for <a href="https://github.com/vdarkobar/Nextcloud-D/blob/main/README.md#nextcloud">more info</a>
+
+<a href="https://github.com/vdarkobar/Nextcloud-D/blob/main/README.md#nextcloud"> * </a>
 <br><br>
 
 ### *Vaultwarden (Docker)*:
@@ -141,7 +146,8 @@ cd "$NAME" && git clone https://github.com/vdarkobar/Vaultwarden.git . && \
 chmod +x setup.sh && \
 ./setup.sh
 ```
-- follow for <a href="https://github.com/vdarkobar/Vaultwarden?tab=readme-ov-file#vaultwarden">more info</a>
+
+<a href="https://github.com/vdarkobar/Vaultwarden?tab=readme-ov-file#vaultwarden"> * </a>
 <br><br>
 
 
