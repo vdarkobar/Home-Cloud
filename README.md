@@ -34,7 +34,7 @@ Security:
   Challenge Passage: 30 Minutes  
   Browser Integrity Check: ON  
 </pre>
-  
+
 ---  
   
 ### *Install and Configure Proxmox Virtual Environment and create two VM's*:
@@ -72,7 +72,7 @@ rm README.md && \
   
 ---  
   
-Clone <a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-file#create-debian-server-template">Debian server template</a>, copy and run commands on the Server to install (one or more) Services:
+### Clone <a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-file#create-debian-server-template">Debian server template</a>, copy and run commands on the Server to install (one or more) Services:
 <br><br>
 
 
