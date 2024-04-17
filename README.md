@@ -3,8 +3,7 @@
   
 # *Self-hosted Home (Lab) Cloud*
 
-```
-  
+<p align="center">
 `7MM"""Mq.                                                            `7MMF'   `7MF`7MM"""YMM 
   MM   `MM.                                                             `MA     ,V   MM    `7 
   MM   ,M9`7Mb,od8,pW"Wq`7M'   `MF`7MMpMMMb.pMMMb. ,pW"Wq`7M'   `MF'     VM:   ,V    MM   d   
@@ -12,10 +11,7 @@
   MM        MM   8M     M8  XMX     MM    MM    MM8M     M8  XMX          `MM A'     MM   Y  ,
   MM        MM   YA.   ,A9,V' VA.   MM    MM    MMYA.   ,A9,V' VA.         :MM;      MM     ,M
 .JMML.    .JMML.  `Ybmd9.AM.   .MA.JMML  JMML  JMML`Ybmd9.AM.   .MA.        VF     .JMMmmmmMMM
-
-
-  
-```
+</p>
 
   
 <p align="center">
