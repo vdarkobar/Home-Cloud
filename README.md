@@ -40,12 +40,12 @@ Security:
   
 <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>
 <br><br>
-  
+
 <p align="center">
 Create these two VM's:
 </p>
 <br><br>
-  
+
 ### *Bastion / Jump server*:
 ```bash
 clear
