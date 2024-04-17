@@ -70,7 +70,7 @@ rm README.md && \
   
 ---  
   
-## Clone Debian server template, copy and run *commands* the to install *(one or more)* Services:
+## Clone server template, login using Bastion, run script to install *(one or more)* Services:
 
   
 ### *Unbound DNS (with optional Pi-Hole)*:
