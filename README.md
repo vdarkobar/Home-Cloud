@@ -72,10 +72,9 @@ rm README.md && \
   
 ---  
   
-<p align="center">
 Clone <a href="https://github.com/vdarkobar/Home-Cloud/tree/main?tab=readme-ov-file#create-debian-server-template">Debian server template</a>, copy and run commands on the Server to install (one or more) Services:
-</p>
 <br><br>
+
 
 ### *Unbound DNS (with optional Pi-Hole)*:
 *VM*:
