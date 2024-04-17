@@ -83,7 +83,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup-ct.sh)"
 ```
 
-- * <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"></a>
+- <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>
 <br><br>
   
 ### *Samba file server*:
