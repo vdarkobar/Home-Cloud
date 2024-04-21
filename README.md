@@ -100,6 +100,10 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
 
+```
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/test.sh)"
+```
+
 <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager"> * </a>
 <br><br>
   
