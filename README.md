@@ -43,14 +43,14 @@ Security:
 <br><br>
   
 ### *Bastion / Jump server*:
-```bash
-clear
-sudo apt -y install git && \
-RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
-cd "$NAME" && git clone https://github.com/vdarkobar/Bastion.git . && \
-chmod +x create.sh && \
-rm README.md && \
-./create.sh
+*VM*:
+```
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup.sh)"
+```
+
+*CT*:
+```
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup-ct.sh)"
 ```
 
 <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion"> * </a>
