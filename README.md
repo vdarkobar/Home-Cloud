@@ -52,16 +52,6 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 <br><br>
   
 ### *Debian server VM template*:
-```bash
-clear
-sudo apt -y install git && \
-RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
-cd "$NAME" && git clone https://github.com/vdarkobar/DebianTemplate.git . && \
-chmod +x create.sh && \
-rm README.md && \
-./create.sh
-```
-
 *VM*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/DebianTemplate/main/test.sh)"
