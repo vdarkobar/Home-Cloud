@@ -57,7 +57,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/DebianTemplate/main/test.sh)"
 ```
 
-<a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template"> * </a>
+<a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template"> !!! </a>
   
 ---  
   
