@@ -43,14 +43,9 @@ Security:
 <br><br>
   
 ### *Bastion / Jump server*:
-*VM*:
+*VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
-```
-
-*CT*:
-```
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup-ct.sh)"
 ```
 
 <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion"> * </a>
