@@ -10,7 +10,9 @@
   
 ---  
   
-## Add domain name to <a href="https://dash.cloudflare.com/">CloudFlare</a> with the following settings<a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">*</a>:
+## Add domain name to <a href="https://dash.cloudflare.com/">CloudFlare</a> with the following settings:
+  
+<a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">*</a>
 
 <pre>
 SSL/TLS Mode - Full (strict)  
