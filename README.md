@@ -92,7 +92,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/se
 <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba"> * </a>
 <br><br>
   
-### *Nginx Proxy Manager*:
+### *Nginx Proxy Manager (Docker)*:
 *VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/setup.sh)"
