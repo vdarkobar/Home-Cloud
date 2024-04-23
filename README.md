@@ -53,7 +53,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 <a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion"> * </a>
 <br><br>
   
-### *Debian server VM template*:
+### *Debian server template*:
 *VM*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/DebianTemplate/main/test.sh)"
