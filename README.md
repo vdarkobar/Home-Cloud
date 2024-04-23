@@ -63,7 +63,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/DebianTemplat
   
 ---  
   
-## Login using Bastion, run script to install Service:
+## SSH in using *Bastion/Jump* Server, run script to install Service:
 
   
 ### *Unbound DNS (with optional Pi-Hole)*:
