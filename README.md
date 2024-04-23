@@ -71,7 +71,6 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/DebianTemplat
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup.sh)"
 ```
-
 *CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup-ct.sh)"
@@ -94,16 +93,9 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/se
 <br><br>
   
 ### *Nginx Proxy Manager*:
-```bash
-clear
-RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read DIR; mkdir -p "$DIR"; \
-cd "$DIR" && git clone https://github.com/vdarkobar/NPM.git . && \
-chmod +x setup.sh && \
-./setup.sh
+*VM/CT*:
 ```
-*CT*:
-```
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/setup-ct.sh)"
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/setup.sh)"
 ```
 
 <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager"> * </a>
