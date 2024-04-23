@@ -39,12 +39,12 @@ Security:
 
 ---  
   
-## *Install and Configure Proxmox Virtual Environment*:
+## *Install and Configure Proxmox Virtual Environment, create*:
   
 <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>
 <br><br>
   
-### *Bastion / Jump server*:
+### *Bastion/Jump Server*:
 *VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
