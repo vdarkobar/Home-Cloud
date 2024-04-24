@@ -53,12 +53,12 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 ---  
   
 ## SSH in using *Bastion/Jump* Server, run script to install Service:
-
-  <br><br>
-Add free space if necessary:  
+  
+<br><br>
+*Add free space to if necessary*:  
 > *VM > Hardware > Hard Disk > Disk Action > Resize*  
 > *CT > Resources > Root Disk > Volume Action > Resize*   
-  
+<br><br>
   
 ### *Unbound DNS (with optional Pi-Hole)*:
 *VM/CT*:
