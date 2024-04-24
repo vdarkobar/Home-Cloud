@@ -52,11 +52,14 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
   
 ---  
   
-- Create Debian VM/CT, SSH in using *Bastion/Jump* Server, run script to install Service:
+- Create Debian VM/CT,  
   
 *Add free space to if necessary*:  
 > *VM > Hardware > Hard Disk > Disk Action > Resize*  
 > *CT > Resources > Root Disk > Volume Action > Resize*  
+
+- SSH in using *Bastion/Jump* Server,  
+- run script to install Service
   
 <br><br>
   
