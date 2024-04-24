@@ -63,7 +63,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 - SSH in using *Bastion/Jump* Server,  
 - run script to install Service
   
-<br><br>
+---  
   
 ### *Unbound DNS (with optional Pi-Hole)*:
 *VM/CT*:
