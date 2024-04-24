@@ -56,7 +56,8 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
   
 *Add free space to if necessary*:  
 > *VM > Hardware > Hard Disk > Disk Action > Resize*  
-> *CT > Resources > Root Disk > Volume Action > Resize*   
+> *CT > Resources > Root Disk > Volume Action > Resize*  
+  
 <br><br>
   
 ### *Unbound DNS (with optional Pi-Hole)*:
