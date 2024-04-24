@@ -67,13 +67,9 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/DebianTemplat
 
   
 ### *Unbound DNS (with optional Pi-Hole)*:
-*VM*:
+*VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup.sh)"
-```
-*CT*:
-```
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup-ct.sh)"
 ```
 
 <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>
