@@ -49,15 +49,16 @@ Security:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
 ```
-<br><br>
-Add free space if necessary:  
-> *VM > Hardware > Hard Disk > Disk Action > Resize*  
-> *CT > Resources > Root Disk > Volume Action > Resize*   
   
 ---  
   
 ## SSH in using *Bastion/Jump* Server, run script to install Service:
 
+  <br><br>
+Add free space if necessary:  
+> *VM > Hardware > Hard Disk > Disk Action > Resize*  
+> *CT > Resources > Root Disk > Volume Action > Resize*   
+  
   
 ### *Unbound DNS (with optional Pi-Hole)*:
 *VM/CT*:
