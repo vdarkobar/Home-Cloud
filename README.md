@@ -51,8 +51,10 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 ```
   
 ---  
+
+### Create:
   
-- Create Debian VM/CT,  
+- Debian VM/CT,  
   
 *Add free space to if necessary*:  
 > *VM > Hardware > Hard Disk > Disk Action > Resize*  
