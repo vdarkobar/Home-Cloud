@@ -61,7 +61,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 > *CT > Resources > Root Disk > Volume Action > Resize*  
 
 - run script to harden Linux server and to install one of the Services,
-- Later, *Bastion/Jump* Server to SSH in.  
+- Later, use *Bastion/Jump* Server to SSH in.  
   
 ---  
   
