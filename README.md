@@ -49,17 +49,10 @@ Security:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
 ```
-
-<a href="https://github.com/vdarkobar/Bastion/blob/main/README.md#bastion"> * </a>
-<br><br>
   
-### *Debian server template*:
-*VM*:
-```
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/DebianTemplate/main/test.sh)"
-```
-
-<a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template"> !!! </a>
+Add free space if necessary:  
+> *VM > Hardware > Hard Disk > Disk Action > Resize*
+> *CT > Resources > Root Disk > Volume Action > Resize*   
   
 ---  
   
