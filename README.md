@@ -39,9 +39,8 @@ Security:
 
 ---  
   
-## *Install and Configure Proxmox Virtual Environment, create*:
+## *Install and Configure Proxmox Virtual Environment, create <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a> *:
   
-<a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>
 <br><br>
   
 ### *Bastion/Jump Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>* :
