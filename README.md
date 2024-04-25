@@ -52,7 +52,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
   
 ---  
 
-### Create:
+### *Create*:
   
 - Debian VM/CT,  
   
