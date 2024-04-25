@@ -42,13 +42,13 @@ Security:
 ## *Install and Configure Proxmox Virtual Environment, create <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>*:
   
   
-### *Bastion/Jump Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>*:
+1. ### *Bastion/Jump Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>*:
 *VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
 ```
   
-### *Debian VM/CT*:
+2. ### *Debian VM/CT*:
   
 *Add free space to if necessary*:  
 > *VM > Hardware > Hard Disk > Disk Action > Resize*  
