@@ -62,7 +62,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 - Later, use *Bastion/Jump* Server to SSH in.  
   
 ---  
-  
+<br><br>
 ### *Unbound DNS (with optional Pi-Hole) <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>*:
 *VM/CT*:
 ```
@@ -74,17 +74,13 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup-ct.sh)"
 ```
-
 <br><br>
-  
 ### *Nginx Proxy Manager (Docker) <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager"> * </a>*:
 *VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/setup.sh)"
 ```
-
 <br><br>
-  
 ### *Nextcloud*:
 ```bash
 clear
@@ -94,10 +90,8 @@ chmod +x setup.sh && \
 rm README.md && \
 ./setup.sh
 ```
-
 <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud"> * </a>
 <br><br>
-
 ### *Nextcloud (Docker)*:
 ```bash
 clear
@@ -106,10 +100,8 @@ cd "$NAME" && git clone https://github.com/vdarkobar/Nextcloud-D.git . && \
 chmod +x setup.sh && \
 ./setup.sh
 ```
-
 <a href="https://github.com/vdarkobar/Nextcloud-D/blob/main/README.md#nextcloud"> * </a>
 <br><br>
-
 ### *Vaultwarden (Docker)*:
 ```bash
 clear
@@ -118,7 +110,6 @@ cd "$NAME" && git clone https://github.com/vdarkobar/Vaultwarden.git . && \
 chmod +x setup.sh && \
 ./setup.sh
 ```
-
 <a href="https://github.com/vdarkobar/Vaultwarden?tab=readme-ov-file#vaultwarden"> * </a>
 <br><br>
 
