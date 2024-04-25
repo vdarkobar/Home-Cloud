@@ -41,7 +41,6 @@ Security:
   
 ## *Install and Configure Proxmox Virtual Environment, create <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>*:
   
-<br><br>
   
 ### *Bastion/Jump Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>* :
 *VM/CT*:
@@ -64,31 +63,28 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
   
 ---  
   
-### *Unbound DNS (with optional Pi-Hole)*:
+### *Unbound DNS (with optional Pi-Hole) <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>*:
 *VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup.sh)"
 ```
 
-<a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>
 <br><br>
   
-### *Samba file server*:
+### *Samba file server <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba"> * </a>*:
 *VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup-ct.sh)"
 ```
 
-<a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba"> * </a>
 <br><br>
   
-### *Nginx Proxy Manager (Docker)*:
+### *Nginx Proxy Manager (Docker) <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager"> * </a>*:
 *VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/setup.sh)"
 ```
 
-<a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager"> * </a>
 <br><br>
   
 ### *Nextcloud*:
