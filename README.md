@@ -10,7 +10,7 @@
   
 ---  
   
-## Add *domain* to <a href="https://dash.cloudflare.com/">CloudFlare</a> with the following settings<a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website">*</a>:
+## Add *domain* to <a href="https://dash.cloudflare.com/">CloudFlare</a> with the following settings<a href="https://support.cloudflare.com/hc/en-us/articles/201720164-Creating-a-Cloudflare-account-and-adding-a-website"> * </a>:
   
 
 
@@ -42,7 +42,7 @@ Security:
 ## *Install and Configure Proxmox Virtual Environment, create <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>*:
   
   
-### *Bastion/Jump Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>* :
+### *Bastion/Jump Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>*:
 *VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
