@@ -48,8 +48,6 @@ Security:
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
 ```
   
----  
-
 ### *Debian VM/CT*:
   
 *Add free space to if necessary*:  
