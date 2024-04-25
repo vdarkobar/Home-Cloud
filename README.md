@@ -61,7 +61,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 ## *Services*:
 <br><br>
 ### *Unbound DNS (with optional Pi-Hole) <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>*:
-validating, recursive, caching DNS resolver with DNS over TLS (DoT), with optional Pi-Hole install
+validating, recursive, caching DNS resolver with DNS over TLS (DoT), with optional Pi-Hole install  
 *VM/CT*:
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup.sh)"
