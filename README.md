@@ -83,17 +83,12 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/setu
 ```
 
 <br><br>
-### *Nextcloud*:
+### *Nextcloud <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud"> * </a>*:
 self hosted open source cloud file storage and colaboration
 ```bash
-clear
-RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
-cd "$NAME" && git clone https://github.com/vdarkobar/Nextcloud.git . && \
-chmod +x setup.sh && \
-rm README.md && \
-./setup.sh
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Nextcloud/main/setup.sh)"
 ```
-<a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud"> * </a>
+
 
 <br><br>
 ### *Nextcloud (Docker)*:
