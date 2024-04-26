@@ -42,7 +42,7 @@ Security:
 ## Install and Configure Proxmox Virtual Environment, create <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>:
   
   
-1. ### *Bastion/Jump Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>*:
+1. ### *Bastion/Jump Debian Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>*:
 SSH connectivity to all of the VMs
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
