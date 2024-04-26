@@ -49,7 +49,8 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
 ```
   
 2. ### *Debian VM/CT*:
-  
+Debian is a complete Free Operating System!
+
 - Add free space (*if necessary*):  
 > *VM > Hardware > Hard Disk > Disk Action > Resize*  
 > *CT > Resources > Root Disk > Volume Action > Resize*  
