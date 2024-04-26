@@ -43,7 +43,7 @@ Security:
   
   
 1. ### *Bastion/Jump Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>*:
-*VM/CT*:
+SSH connectivity to all of the VMs
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
 ```
