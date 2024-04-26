@@ -83,6 +83,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/setu
 
 <br><br>
 ### *Nextcloud*:
+self hosted open source cloud file storage and colaboration
 ```bash
 clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
@@ -95,6 +96,7 @@ rm README.md && \
 
 <br><br>
 ### *Nextcloud (Docker)*:
+self hosted open source cloud file storage and colaboration
 ```bash
 clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
@@ -106,6 +108,7 @@ chmod +x setup.sh && \
 
 <br><br>
 ### *Vaultwarden (Docker)*:
+everything you need out of a password manager
 ```bash
 clear
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
