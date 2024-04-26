@@ -89,16 +89,12 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Nextcloud/mai
 
 
 <br><br>
-### *Nextcloud (Docker)*:
+### *Nextcloud (Docker) <a href="https://github.com/vdarkobar/Nextcloud-D/blob/main/README.md#nextcloud"> * </a>*:
 self hosted open source cloud file storage and colaboration
 ```bash
-clear
-RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
-cd "$NAME" && git clone https://github.com/vdarkobar/Nextcloud-D.git . && \
-chmod +x setup.sh && \
-./setup.sh
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Nextcloud-D/main/setup.sh)"
 ```
-<a href="https://github.com/vdarkobar/Nextcloud-D/blob/main/README.md#nextcloud"> * </a>
+
 
 <br><br>
 ### *Vaultwarden (Docker)*:
