@@ -59,24 +59,28 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/
   
 ---  
 ## *Services*:
+
 <br><br>
 ### *Unbound DNS (with optional Pi-Hole) <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>*:
 validating, recursive, caching DNS resolver with DNS over TLS (DoT), with optional Pi-Hole install
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup.sh)"
 ```
+
 <br><br>
 ### *Samba file server <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba"> * </a>*:
-*VM/CT*:
+file sharing across different operating systems over a network
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup-ct.sh)"
 ```
+
 <br><br>
 ### *Nginx Proxy Manager (Docker) <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager"> * </a>*:
-*VM/CT*:
+reverse Proxy for all of your Services
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/setup.sh)"
 ```
+
 <br><br>
 ### *Nextcloud*:
 ```bash
@@ -88,6 +92,7 @@ rm README.md && \
 ./setup.sh
 ```
 <a href="https://github.com/vdarkobar/Nextcloud?tab=readme-ov-file#nextcloud"> * </a>
+
 <br><br>
 ### *Nextcloud (Docker)*:
 ```bash
@@ -98,6 +103,7 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
 <a href="https://github.com/vdarkobar/Nextcloud-D/blob/main/README.md#nextcloud"> * </a>
+
 <br><br>
 ### *Vaultwarden (Docker)*:
 ```bash
@@ -108,6 +114,7 @@ chmod +x setup.sh && \
 ./setup.sh
 ```
 <a href="https://github.com/vdarkobar/Vaultwarden?tab=readme-ov-file#vaultwarden"> * </a>
+
 <br><br>
 
 
