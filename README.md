@@ -14,9 +14,9 @@
   
 ```SSL/TLS Mode - Full (strict)  ```
 
-```Edge Certificates:  ```
-```  Always Use HTTPS: ON  ```
-```  HTTP Strict Transport Security (HSTS): Enable```
+```Edge Certificates:  ```  
+```  Always Use HTTPS: ON  ```  
+```  HTTP Strict Transport Security (HSTS): Enable```  
 
 <pre>
 SSL/TLS Mode - Full (strict)  
