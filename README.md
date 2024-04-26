@@ -72,7 +72,7 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/
 ### *Samba file server <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba"> * </a>*:
 file sharing across different operating systems over a network
 ```
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup-ct.sh)"
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup.sh)"
 ```
 
 <br><br>
