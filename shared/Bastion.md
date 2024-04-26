@@ -16,17 +16,13 @@
 ```bash
 sudo apt update && sudo apt upgrade -y && \
 sudo apt install -y \
-  ufw \
-  git \
-  curl \
-  wget \
-  tmux \
-  gnupg2 \
-  fail2ban \
-  net-tools \
-  python3-pip \
-  qemu-guest-agent \
-  unattended-upgrades
+    ufw \
+    gnupg2 \
+    fail2ban \
+    libpam-tmpdir \
+    qemu-guest-agent \
+    unattended-upgrades \
+    libpam-google-authenticator
 ```
   
 ### Enable *unattended-upgrades*:
