@@ -44,7 +44,7 @@ Security:
   
 1. ### *Bastion/Jump Debian Server <a href="https://github.com/vdarkobar/Bastion?tab=readme-ov-file#bastion"> * </a>*:
 SSH connectivity to all of the VMs
-```
+```bash
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Bastion/main/setup.sh)"
 ```
   
@@ -64,21 +64,21 @@ Debian is a complete Free Operating System!
 <br><br>
 ### *Unbound DNS (with optional Pi-Hole) <a href="https://github.com/vdarkobar/unbound/tree/main?tab=readme-ov-file#unbound"> * </a>*:
 validating, recursive, caching DNS resolver with DNS over TLS (DoT), with optional Pi-Hole install
-```
+```bash
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/unbound/main/setup.sh)"
 ```
 
 <br><br>
 ### *Samba file server <a href="https://github.com/vdarkobar/Samba/tree/main?tab=readme-ov-file#samba"> * </a>*:
 file sharing across different operating systems over a network
-```
+```bash
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Samba/main/setup.sh)"
 ```
 
 <br><br>
 ### *Nginx Proxy Manager (Docker) <a href="https://github.com/vdarkobar/NPM#nginx-proxy-manager"> * </a>*:
 reverse Proxy for all of your Services
-```
+```bash
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/NPM/main/setup.sh)"
 ```
 
