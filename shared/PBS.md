@@ -17,7 +17,12 @@ Check the pool using `zfs list` command (it will give you NAME and MOUNTPOINT)
 zfs list
 ```  
   
-Create a `datastore.cfg` file ( `/etc/proxmox-backup/datastore.cfg` ), with the following contents:
+Create a `datastore.cfg` file: 
+```
+nano /etc/proxmox-backup/datastore.cfg
+```
+  
+with the following contents:
 ```
 datastore: <name>			<---NAME
     path /path/to/your/backups		<---MOUNTPOINT
