@@ -24,7 +24,7 @@ nano /etc/proxmox-backup/datastore.cfg
   
 with the provided (`zfs list`) `NAME` and `MOUNTPOINT`:
 ```
-datastore: <name>		<---NAME
+datastore: <name>				<---NAME
     path /path/to/your/backups		<---MOUNTPOINT
 ```
 
