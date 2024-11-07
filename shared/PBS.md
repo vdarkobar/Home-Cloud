@@ -21,5 +21,6 @@ Create a `datastore.cfg` file ( `/etc/proxmox-backup/datastore.cfg` ), with the 
 ```
 datastore: <name>			<---NAME
     path /path/to/your/backups		<---MOUNTPOINT
-```  
-  
+```
+
+Add Datastore to Proxmox VE ( `Datacenter > Storage > Add` )  
