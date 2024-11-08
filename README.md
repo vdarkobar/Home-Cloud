@@ -55,8 +55,8 @@ Debian is a complete Free Operating System!
 > *CT > Resources > Root Disk > Volume Action > Resize*  
 
 - Run script to harden Linux server and to install one of the Services,
-- Use *Bastion/Jump* Server to SSH in.   
-   
+- Use *Bastion/Jump* Server to SSH in.
+<br>
 - If using LXC Container create ***non-root user*** to install services
 
 ```
