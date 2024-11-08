@@ -59,7 +59,7 @@ Debian is a complete Free Operating System!
    
 <br>
    
-- If using LXC Container create ***non-root user*** to install services
+- If using LXC Container create **non-root user** to install services
 
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Home-Cloud/refs/heads/main/shared/lxc_non_root_user.sh)"
