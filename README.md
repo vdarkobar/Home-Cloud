@@ -57,7 +57,7 @@ Debian is a complete Free Operating System!
 - Run script to harden Linux server and to install one of the Services,
 - Use *Bastion/Jump* Server to SSH in.
   
-- If using LXC Container create non-root user to install services
+- If using LXC Container create ***non-root user*** to install services
 
 ```
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/vdarkobar/Home-Cloud/refs/heads/main/shared/lxc_non_root_user.sh)"
