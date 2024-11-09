@@ -37,7 +37,7 @@ Security:
   
 ---  
   
-## Install and Configure Proxmox Virtual Environment <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>:
+## Proxmox Virtual Environment configuration <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Proxmox.md#proxmox"> * </a>:
 
 ## Create:
   
